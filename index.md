@@ -5,30 +5,30 @@ My expertise lies in corporate sustainability, ESG, and institutional analysis. 
 
 
 # Lastest News
-* Oct, 2024: Received a full acceptance from Administrative Science Quarterly 
-* Aug, 2024: Received a 2nd round Revise-and-Resubmit from Journal of International Business Studies
-* Aug, 2024: Received a 1st round Revise-and-Resubmit from Academy of Management Journal
+* Oct, 2024: Received a full acceptance from **Administrative Science Quarterly** 
+* Aug, 2024: Received a 2nd round Revise-and-Resubmit from **Journal of International Business Studies**
+* Aug, 2024: Received a 1st round Revise-and-Resubmit from **Academy of Management Journal**
 * Jul,2024: Received an acceptance from Business & Society
 * Jun, 2024: Received a conditional acceptance from Business & Society
-* May, 2024: Received a 2nd round Revise-and-Resubmit from Academy of Management Journal
-* Mar, 2024: Received a 4th round Revise-and-Resubmit from Administrative Science Quarterly
-* Jan, 2024: Received a 1st round Revise-and-Resubmit from Journal of International Business Studies
-* Dec, 2023: Received a 1st round Revise-and-Resubmit from Strategic Management Journal
-* Sep, 2023: Received a 1st round Revise-and-Resubmit from Academy of Management Journal
+* May, 2024: Received a 2nd round Revise-and-Resubmit from **Academy of Management Journal**
+* Mar, 2024: Received a 4th round Revise-and-Resubmit from **Administrative Science Quarterly**
+* Jan, 2024: Received a 1st round Revise-and-Resubmit from **Journal of International Business Studies**
+* Dec, 2023: Received a 1st round Revise-and-Resubmit from **Strategic Management Journal**
+* Sep, 2023: Received a 1st round Revise-and-Resubmit from **Academy of Management Journal**
 * Aug, 2023: Received Emerging Scholar Award from Org and Natural Environment Division of AOM
 * Jun, 2023: Invited to be Senior Editor for Management and Organization Review
-* May, 2023: Received a 3rd round Revise-and-Resubmit from Administrative Science Quarterly
+* May, 2023: Received a 3rd round Revise-and-Resubmit from **Administrative Science Quarterly**
 * Jul, 2022: Invited to be Deputy Editor for Organization and Environment
 
-# Publications
+# Major Publications
 
 My research falls into two broad themes. In the first research stream (papers 3-5), I follow an “outside-in” perspective, examining external factors that surround business corporations and employing an institutional theory lens to understand the underlying drivers, mechanisms, andimpacts of corporate sustainability. In my second research stream (papers 1-2), I take an “inside-out” perspective, researching internal factors from within business corporations to understand their impacts on the relevant stakeholders and the broader society.
 
-1. Cai Y, Yue Q, Lin F, Yan S, Yang H (equal authorship). 2024 (forthcoming). “Sunflower movement and corporate donations”. Administrative Science Quarterly.
-2. Maksimov V, Wang S, Yan S (equal authorship). 2022. “Global connectedness and dynamic green capabilities in MNEs”. Journal of International Business Studies, 53(4): 723-7402. 
-3. Yan S, Almandoz J, Ferraro F. 2021. “The Impact of Logic (In)Compatibility: Green Investing, State Policy, and Corporate Environmental Performance”. Administrative Science Quarterly,66(4): 903-9443.
-4. Yan S. 2020. “A double-edged sword:Diversity within religion and market emergence”. Organization Science, 31(3): 535-7954. 
-5. Yan S, Ferraro F, Almandoz J. 2019. “The rise of socially responsible investment funds: Theparadoxical role of the financial logic”. Administrative Science Quarterly, 64(2): 466–501
+1. Cai Yishu, Yue Qingyuan (Lori), Lin Fangwen, **Yan Shipeng**, Yang Haibin (equal authorship). (forthcoming). “Sunflower movement and corporate donations”. **Administrative Science Quarterly**.
+2. Maksimov Vladislav, Wang Lu Stephanie, **Yan Shipeng** (equal authorship). 2022. “Global connectedness and dynamic green capabilities in MNEs”. **Journal of International Business Studies**, 53(4): 723-7402. 
+3. Yan Shipeng, Almandoz Juan (John), Ferraro Fabrizio. 2021. “The Impact of Logic (In)Compatibility: Green Investing, State Policy, and Corporate Environmental Performance”. **Administrative Science Quarterly**,66(4): 903-9443.
+4. **Yan Shipeng**. 2020. “A double-edged sword:Diversity within religion and market emergence”. **Organization Science**, 31(3): 535-7954. 
+5. **Yan Shipeng**, Ferraro Fabrizio, Almandoz Juan (John). 2019. “The rise of socially responsible investment funds: Theparadoxical role of the financial logic”. **Administrative Science Quarterly**, 64(2): 466–501
 
 # Working papers
 #### Corporate sustainability: 
