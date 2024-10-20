@@ -26,7 +26,7 @@ My research falls into two broad themes. In the first research stream (papers 3-
 
 1. Cai Yishu, Yue Qingyuan (Lori), Lin Fangwen, **Yan Shipeng**, Yang Haibin (equal authorship). (forthcoming). “Sunflower movement and corporate donations”. **Administrative Science Quarterly**.
 2. Maksimov Vladislav, Wang Lu Stephanie, **Yan Shipeng** (equal authorship). 2022. “Global connectedness and dynamic green capabilities in MNEs”. **Journal of International Business Studies**, 53(4): 723-7402. 
-3. Yan Shipeng, Almandoz Juan (John), Ferraro Fabrizio. 2021. “The Impact of Logic (In)Compatibility: Green Investing, State Policy, and Corporate Environmental Performance”. **Administrative Science Quarterly**,66(4): 903-9443.
+3. **Yan Shipeng**, Almandoz Juan (John), Ferraro Fabrizio. 2021. “The Impact of Logic (In)Compatibility: Green Investing, State Policy, and Corporate Environmental Performance”. **Administrative Science Quarterly**,66(4): 903-9443.
 4. **Yan Shipeng**. 2020. “A double-edged sword:Diversity within religion and market emergence”. **Organization Science**, 31(3): 535-7954. 
 5. **Yan Shipeng**, Ferraro Fabrizio, Almandoz Juan (John). 2019. “The rise of socially responsible investment funds: Theparadoxical role of the financial logic”. **Administrative Science Quarterly**, 64(2): 466–501
 
