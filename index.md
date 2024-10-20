@@ -1,10 +1,12 @@
-# Bio
+
+
+## Bio
 >Assistant Professor, Area of Management and Strategy, Faculty of Business and Economics, The University of Hong Kong
 
 My expertise lies in corporate sustainability, ESG, and institutional analysis. With a training in organization theory, I had a PhD in Management from IESE Business School in Spain and a Bachelor's in Business Administration (Information Systems) from University of Hong Kong. 
 
 
-# Lastest News
+## Lastest News
 * Oct, 2024: Received a full acceptance from **Administrative Science Quarterly** 
 * Aug, 2024: Received a 2nd round Revise-and-Resubmit from **Journal of International Business Studies**
 * Aug, 2024: Received a 1st round Revise-and-Resubmit from **Academy of Management Journal**
@@ -20,7 +22,7 @@ My expertise lies in corporate sustainability, ESG, and institutional analysis. 
 * May, 2023: Received a 3rd round Revise-and-Resubmit from **Administrative Science Quarterly**
 * Jul, 2022: Invited to be Deputy Editor for Organization and Environment
 
-# Major Publications
+## Major Publications
 
 My research falls into two broad themes. In the first research stream (papers 3-5), I follow an “outside-in” perspective, examining external factors that surround business corporations and employing an institutional theory lens to understand the underlying drivers, mechanisms, andimpacts of corporate sustainability. In my second research stream (papers 1-2), I take an “inside-out” perspective, researching internal factors from within business corporations to understand their impacts on the relevant stakeholders and the broader society.
 
@@ -30,7 +32,7 @@ My research falls into two broad themes. In the first research stream (papers 3-
 4. **Yan Shipeng**. 2020. “A double-edged sword:Diversity within religion and market emergence”. **Organization Science**, 31(3): 535-7954. 
 5. **Yan Shipeng**, Ferraro Fabrizio, Almandoz Juan (John). 2019. “The rise of socially responsible investment funds: Theparadoxical role of the financial logic”. **Administrative Science Quarterly**, 64(2): 466–501
 
-# Working papers
+## Working papers
 #### Corporate sustainability: 
 1. Social movement and consumer evaluation (under initial review)
 2. Corproate reputation and environmental expenditure (under review)
@@ -50,7 +52,7 @@ My research falls into two broad themes. In the first research stream (papers 3-
 
 I am open to collaborations and please don't hesitate to drop an email at shpyan at hku dot hk if you find an overlapping interest. 
 
-# For Visiting students & PhD applicants
+## For Visiting students & PhD applicants
 #### PhD Admission at HKU Business School
 I regularly receive emails soliciting my interest in hiring PhD students. In case you don't know, PhD admission decisions in our area are committee-based. I am not currently involved in the PhD committee.
 
