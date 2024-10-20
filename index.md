@@ -1,8 +1,6 @@
 ![Thumbnail of Leap day](thumbnail.png)
 
 ## Bio
->Assistant Professor, Area of Management and Strategy, Faculty of Business and Economics, The University of Hong Kong
-
 My expertise lies in corporate sustainability, ESG, and institutional analysis. With a training in organization theory, I had a PhD in Management from IESE Business School in Spain and a Bachelor's in Business Administration (Information Systems) from University of Hong Kong. 
 
 
