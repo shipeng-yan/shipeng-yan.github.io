@@ -45,31 +45,20 @@ My research falls into two broad themes. In the first research stream (papers 3-
 
 # Working papers
 #### Corporate sustainability: 
-Social movement and consumer evaluation (under initial review)
-
-Corproate reputation and environmental expenditure (under review)
-
-Anti-slavery regulation and supply chain (under initial review)
-
-ESG ratings and investor reactions (under initial review)
-
-ESG investing and carbon re-allocation (under review)
-
-ESG investors and supplier hiding (under review)
-
-Religion and corporate decarbonization (preparing for submission)
-
-Banks and environmental innovation (preparing for submission)
+1. Social movement and consumer evaluation (under initial review)
+2. Corproate reputation and environmental expenditure (under review)
+3. Anti-slavery regulation and supply chain (under initial review)
+4. ESG ratings and investor reactions (under initial review)
+5. ESG investing and carbon re-allocation (under review)
+6. ESG investors and supplier hiding (under review)
+7. Religion and corporate decarbonization (preparing for submission)
+8. Banks and environmental innovation (preparing for submission)
 
 #### Corporate non-market strategy
-
-Religion and corporate de-leveraging (writing)
-
-Rhetorics and Bitcoin emergence (under review)
-
-Institutional trust and Bitcoin (writing)
-
-Climate ligitation (writing)
+9. Religion and corporate de-leveraging (writing)
+10. Rhetorics and Bitcoin emergence (under review)
+11. Institutional trust and Bitcoin (writing)
+12. Climate ligitation (writing)
 
 
 I am open to collaborations and please don't hesitate to drop an email at shpyan at hku dot hk if you find an overlapping interest. 
