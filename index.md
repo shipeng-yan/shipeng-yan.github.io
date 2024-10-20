@@ -1,4 +1,4 @@
-
+![Thumbnail of Leap day](thumbnail.png)
 
 ## Bio
 >Assistant Professor, Area of Management and Strategy, Faculty of Business and Economics, The University of Hong Kong
