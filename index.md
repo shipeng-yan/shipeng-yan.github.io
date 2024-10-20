@@ -1,37 +1,24 @@
+# Shipeng YAN
+>Assistant Professor, Area of Management and Strategy, Faculty of Business and Economics, The University of Hong Kong
 
-
-# Bio
 My expertise lies in corporate sustainability, ESG, and institutional analysis. With a training in organization theory, I had a PhD in Management from IESE Business School in Spain and a Bachelor's in Business Administration (Information Systems) from University of Hong Kong. 
 
 
 # Lastest News
-Oct, 2024: Received a full acceptance from Administrative Science Quarterly 
-
-Aug, 2024: Received a 2nd round Revise-and-Resubmit from Journal of International Business Studies
-
-Aug, 2024: Received a 1st round Revise-and-Resubmit from Academy of Management Journal **
-
-Jul,2024: Received an acceptance from Business & Society
-
-Jun, 2024: Received a conditional acceptance from Business & Society
-
-May, 2024: Received a 2nd round Revise-and-Resubmit from Academy of Management Journal
-
-Mar, 2024: Received a 4th round Revise-and-Resubmit from Administrative Science Quarterly
-
-Jan, 2024: Received a 1st round Revise-and-Resubmit from Journal of International Business Studies
-
-Dec, 2023: Received a 1st round Revise-and-Resubmit from Strategic Management Journal
-
-Sep, 2023: Received a 1st round Revise-and-Resubmit from Academy of Management Journal
-
-Aug, 2023: Received Emerging Scholar Award from Org and Natural Environment Division of AOM
-
-Jun, 2023: Invited to be Senior Editor for Management and Organization Review
-
-May, 2023: Received a 3rd round Revise-and-Resubmit from Administrative Science Quarterly
-
-Jul, 2022: Invited to be Deputy Editor for Organization and Environment
+* Oct, 2024: Received a full acceptance from Administrative Science Quarterly 
+* Aug, 2024: Received a 2nd round Revise-and-Resubmit from Journal of International Business Studies
+* Aug, 2024: Received a 1st round Revise-and-Resubmit from Academy of Management Journal
+* Jul,2024: Received an acceptance from Business & Society
+* Jun, 2024: Received a conditional acceptance from Business & Society
+* May, 2024: Received a 2nd round Revise-and-Resubmit from Academy of Management Journal
+* Mar, 2024: Received a 4th round Revise-and-Resubmit from Administrative Science Quarterly
+* Jan, 2024: Received a 1st round Revise-and-Resubmit from Journal of International Business Studies
+* Dec, 2023: Received a 1st round Revise-and-Resubmit from Strategic Management Journal
+* Sep, 2023: Received a 1st round Revise-and-Resubmit from Academy of Management Journal
+* Aug, 2023: Received Emerging Scholar Award from Org and Natural Environment Division of AOM
+* Jun, 2023: Invited to be Senior Editor for Management and Organization Review
+* May, 2023: Received a 3rd round Revise-and-Resubmit from Administrative Science Quarterly
+* Jul, 2022: Invited to be Deputy Editor for Organization and Environment
 
 # Publications
 
