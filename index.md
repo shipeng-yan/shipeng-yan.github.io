@@ -30,40 +30,47 @@ My research falls into two broad themes. In the first research stream (papers 1-
 4. Maksimov Vladislav, Wang Lu Stephanie, **Yan Shipeng** (equal authorship). 2022. “Global connectedness and dynamic green capabilities in MNEs”. **Journal of International Business Studies**, 53(4): 723-740. 
 5. Cai Yishu, Yue Qingyuan (Lori), Lin Fangwen, **Yan Shipeng**, Yang Haibin (equal authorship). (forthcoming). “Sunflower movement and corporate donations”. **Administrative Science Quarterly**.
 
+## Other Publications
+* Fu Jiawei, Yan Shipeng. Forthcoming. “How Do New Forms of Organizations Manage Institutional Voids? Social Enterprises’ Quest for Sociopolitical Legitimacy”. Business & Society.
+* Zhang, Ze, Yan Shipeng. 2023. “Air pollution and investors’ behavior: A review of recent literature.” The Routledge Handbook of Green Finance: 542–562. London and New York: Routledge.
+* Yan, Shipeng, Ferraro Fabrizio. 2016. “State mediation in market emergence: Socially responsible investing in China”. Research in the Sociology of Organizations, vol. 48B: 173–206. Bingley: Emerald Group Publishing Limited.
+* Bose Indranil, Yan Shipeng. 2011. “The green potential of RFID projects: A case-based analysis”. IT Professional, 13(1).
 
 ## Working papers
 #### Corporate sustainability: 
 * Corporate reputation and environmental expenditure (under review)
-* Anti-slavery regulation and supply chain (under initial review)
-* ESG ratings and investor reactions (under initial review)
-* ESG investing and carbon re-allocation (under review)
-* ESG investors and supplier hiding (under review)
 * Religion and corporate decarbonization (under review)
+  
+* Anti-slavery regulation and supply chain management (under review)
+* ESG investors and supplier hiding (under review)
+
+* ESG ratings and investor reactions (under review)
+* ESG investing and carbon re-allocation (under review)
 * Banks and environmental innovation (preparing for submission)
+* Climate litigation (writing)
 
 #### Corporate non-market strategy
 * Social movement and consumer evaluation (preparing for submission)
 * Religion and corporate de-leveraging (writing)
 * Rhetorics and Bitcoin emergence (under review)
 * Institutional trust and Bitcoin (writing)
-* Climate litigation (writing)
 
 
 I am open to collaborations and please don't hesitate to drop an email at shpyan at hku dot hk if you find an overlapping interest. 
 
 ## For Visiting students & PhD applicants
 #### PhD Admission at HKU Business School
-I regularly receive emails soliciting my interest in hiring PhD students, based on the misperception that individual faculty members have independent funding for PhD admissions. However, this is not true in our school. PhD admission decisions in our area are committee-based. However, if you are already a doctoral student interested in ESG and institutional analysis, there might be a visiting opportunity. 
+I regularly receive emails soliciting my interest in hiring PhD students, but this is unnecessary. There is a misperception that individual faculty members have independent funding for and can decide on PhD admissions. However, this is not true in our school. PhD admission decisions in our area are committee-based. However, if you are already a doctoral student interested in ESG and institutional analysis, there might be a visiting opportunity. 
 
 #### My style as a PhD adviser
-My goal is to help you become an independent and productive scholar. I am not a micro-manager and will not impose a structure unless you explicitly ask for it. I tend to separate work and life as much as I can. It is unlikely that you will receive a message from me on holidays and weekends. 
-
-In general, I am responsive. In return, I also expect you to be responsive. You don't have to agree with me all the time, but you are not advised to repeatedly ignore my suggestions without a good explanation. This principle applies to responding to reviewers.
-
-I am generally supportive, but you should really take the initiative to communicate your concerns in a timely manner. I am on your side when you need support. 
+* My goal is to help you become an independent and productive scholar. I am not a micro-manager and will not impose a structure. However, a healthy dose of structure can also be helpful for those who need it. Make sure you reflect on this and explicitly ask me for it if you think some structure helps. 
+* I respcet your boundaries and understand that you have multiple priorities in life. I don't think research is the most important thing in life. It is unlikely that you will receive a message from me on holidays and weekends.
+* In general, I am responsive. In return, I also expect you to be responsive. 
+* You don't have to agree with me all the time, but you are advised to provide a well-reasoned explanation. This principle applies to responding to reviewers.
+* I am on your side when you need support. That means I am with you even if you decide that research is not your cup of tea. However, you should take the initiative to communicate your concerns in a timely manner. 
 
 #### My intellectual style
-As a management scholar, I appreciate empirical rigor and clever causal identification, but I deeply care about theoretical novelty and, more often than not, am excited by deep ideas. I value logical clarity and theoretical sophistication and refuse to believe that there is a trade-off between the two.
+As a management scholar, I appreciate empirical rigor and clever causal identification, but I deeply care about theoretical novelty and, more often than not, am excited by profound ideas. I value logical clarity and theoretical sophistication. I don't believe that there has to be a trade-off between the two.
 
 #### Why PhD in Management?
 1. You will NOT become a CEO of a large multinational firm after doing a PhD in management. Doing this will most likely kill your chance to be a CEO. An imperfect but useful analogy is that a management scholar is to a manager as a football game analyst is to a footballer.
