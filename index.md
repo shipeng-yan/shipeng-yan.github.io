@@ -6,19 +6,10 @@ My expertise lies in corporate sustainability, ESG, and institutional analysis. 
 
 ## Lastest News
 * Jan-Feb, 2025: Received two revision requests from **UTD journals** 
-* Oct, 2024: Received a full acceptance from **Administrative Science Quarterly** 
-* Aug, 2024: Received a 2nd round Revise-and-Resubmit from **Journal of International Business Studies**
-* Aug, 2024: Received a 1st round Revise-and-Resubmit from **Academy of Management Journal**
-* Jul,2024: Received an acceptance from Business & Society
-* Jun, 2024: Received a conditional acceptance from Business & Society
-* May, 2024: Received a 2nd round Revise-and-Resubmit from **Academy of Management Journal**
-* Mar, 2024: Received a 4th round Revise-and-Resubmit from **Administrative Science Quarterly**
-* Jan, 2024: Received a 1st round Revise-and-Resubmit from **Journal of International Business Studies**
-* Dec, 2023: Received a 1st round Revise-and-Resubmit from **Strategic Management Journal**
-* Sep, 2023: Received a 1st round Revise-and-Resubmit from **Academy of Management Journal**
+* 2024: Received five revision requests from **UTD journals**
+* 2023: Received two revision requests from **UTD journals**
 * Aug, 2023: Received Emerging Scholar Award from Org and Natural Environment Division of AOM
 * Jun, 2023: Invited to be Senior Editor for Management and Organization Review
-* May, 2023: Received a 3rd round Revise-and-Resubmit from **Administrative Science Quarterly**
 * Jul, 2022: Invited to be Deputy Editor for Organization and Environment
 
 ## Major Publications
