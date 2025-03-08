@@ -2,3 +2,8 @@
 ---
 
 @import 'jekyll-theme-leap-day';
+
+// Override the font for the entire site
+body {
+    font-family: "Cardo", sans-serif; // Replace with your desired font
+}
