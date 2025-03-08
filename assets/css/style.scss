@@ -4,6 +4,6 @@
 @import 'jekyll-theme-leap-day';
 
 // Override the font for the entire site
-body {
-    font-family: "Cardo", sans-serif; // Replace with your desired font
+body, p, h1, h2, h3, h4, h5, h6 {
+    font-family: "Crimson Text", sans-serif; // Replace with your desired font
 }
