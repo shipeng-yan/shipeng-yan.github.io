@@ -52,17 +52,17 @@ I am open to collaborations and please don't hesitate to drop an email at shpyan
 
 ## For Visiting students & PhD applicants
 #### PhD Admission at HKU Business School
-I regularly receive emails soliciting my interest in hiring PhD students, but this is unnecessary. There is a misperception that individual faculty members have independent funding for and can decide on PhD admissions. However, this is not true in our school. PhD admission decisions in our area are committee-based. However, if you are already a doctoral student interested in ESG and institutional analysis, there might be a visiting opportunity. 
+I regularly receive emails soliciting my interest in hiring PhD students, but this is unnecessary. In my current institution, PhD admission decisions in our area are committee-based. However, if you are already a doctoral student interested in ESG and institutional analysis from a different institution, there might be a visiting opportunity. 
 
 #### My style as a PhD adviser
-* My goal is to help you become an independent and productive scholar. I am not a micro-manager and will not impose a structure. However, a healthy dose of structure can also be helpful for those who need it. Make sure you reflect on this and explicitly ask me for it if you think some structure helps. 
+* My goal is to help you become an independent and productive scholar. I am not a micro-manager and tend to push you to do anything. However, if you believe that sometimes a healthy dose of structure with reminders and deadlines is helpful for you, please ask for it from me explicitly. 
 * I respcet your boundaries and understand that you have multiple priorities in life. I don't think research is the most important thing in life. It is unlikely that you will receive a message from me on holidays and weekends.
 * In general, I am responsive. In return, I also expect you to be responsive. 
-* You don't have to agree with me all the time, but you are advised to provide a well-reasoned explanation. This principle applies to responding to reviewers.
+* You don't have to agree with me all the time, but you should provide a well-reasoned explanation. This principle applies to responding to reviewers.
 * I am on your side when you need support. That means I am with you even if you decide that research is not your cup of tea. However, you should take the initiative to communicate your concerns in a timely manner. 
 
 #### My intellectual style
-As a management scholar, I appreciate empirical rigor and clever causal identification, but I deeply care about theoretical novelty and, more often than not, am excited by profound ideas. I value logical clarity and theoretical sophistication. I don't believe that there has to be a trade-off between the two.
+As a management scholar, I care about theoretical novelty, empirical rigor, and practical relevance. A good paper should at least have one of these three elements.
 
 #### Why PhD in Management?
 1. You will NOT become a CEO of a large multinational firm after doing a PhD in management. Doing this will most likely kill your chance to be a CEO. An imperfect but useful analogy is that a management scholar is to a manager as a football game analyst is to a footballer.
