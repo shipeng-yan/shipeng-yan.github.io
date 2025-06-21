@@ -5,12 +5,12 @@ My expertise lies in corporate sustainability, ESG, and institutional analysis. 
 
 
 ## Lastest News
-* Jan-Feb, 2025: Received two revision requests from **UTD journals** 
+* 2025: Received three revision requests from **UTD journals** 
 * 2024: Received five revision requests from **UTD journals**
 * 2023: Received two revision requests from **UTD journals**
-* Aug, 2023: Received Emerging Scholar Award from Org and Natural Environment Division of AOM
-* Jun, 2023: Invited to be Senior Editor for Management and Organization Review
-* Jul, 2022: Invited to be Deputy Editor for Organization and Environment
+* 2023: Received Emerging Scholar Award from Org and Natural Environment Division of AOM
+* 2023: Invited to be Senior Editor for Management and Organization Review
+* 2022: Invited to be Deputy Editor for Organization and Environment
 
 ## Major Publications
 
@@ -30,22 +30,20 @@ My research falls into two broad themes. In the first research stream (papers 4-
 
 ## Working papers
 #### Corporate sustainability: 
-* Corporate reputation and environmental expenditure (under review)
-* Religion and corporate decarbonization (under review)
-  
-* Anti-slavery regulation and supply chain management (under review)
-* ESG investors and supplier hiding (under review)
-
-* ESG ratings and investor reactions (under review)
-* ESG investing and carbon re-allocation (under review)
-* Banks and environmental innovation (preparing for submission)
-* Climate litigation (writing)
+* Corporate reputation and environmental expenditure
+* Religion and corporate decarbonization
+* Anti-slavery regulation and supply chain management 
+* ESG investors and supplier hiding
+* ESG ratings and investor reactions
+* ESG investing and carbon re-allocation
+* Banks and environmental innovation
+* Climate litigation
 
 #### Corporate non-market strategy
-* Social movement and consumer evaluation (preparing for submission)
-* Religion and corporate de-leveraging (writing)
-* Rhetorics and Bitcoin emergence (under review)
-* Institutional trust and Bitcoin (writing)
+* Social movement and consumer evaluation 
+* Religion and corporate de-leveraging
+* Rhetorics and Bitcoin emergence
+* Institutional trust and Bitcoin
 
 
 I am open to collaborations and please don't hesitate to drop an email at shpyan at hku dot hk if you find an overlapping interest. 
