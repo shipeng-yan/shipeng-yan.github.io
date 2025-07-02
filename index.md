@@ -2,6 +2,7 @@
 
 ## Bio
 <img src="thumbnail.png" style="width: 500px; height: auto;">
+
 I work as an assistant professor of management and strategy at HKU Business School. My expertise lies in corporate sustainability, ESG, and institutional analysis. With a background in organization theory, I hold a PhD in Management from IESE Business School and a Bachelor's in Business Administration (Information Systems) from the University of Hong Kong. 
 
 
