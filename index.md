@@ -1,7 +1,6 @@
 
 
 ## Bio
-![Thumbnail of Leap day](thumbnail.png) 
 My expertise lies in corporate sustainability, ESG, and institutional analysis. With a background in organization theory, I hold a PhD in Management from IESE Business School and a Bachelor's in Business Administration (Information Systems) from the University of Hong Kong. 
 
 
