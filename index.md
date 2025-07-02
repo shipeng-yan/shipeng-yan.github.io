@@ -53,17 +53,17 @@ I am open to collaborations and please don't hesitate to drop an email at shpyan
 I regularly receive emails soliciting my interest in hiring PhD students, but this is unnecessary. In my current institution, PhD admission decisions in our area are committee-based. However, if you are already a doctoral student interested in ESG and institutional analysis from a different institution, there might be a visiting opportunity. 
 
 #### My style as a PhD adviser
-* My goal is to help you become an independent and productive scholar. I am not a micro-manager and tend to push you to do anything. However, if you believe that sometimes a healthy dose of structure with reminders and deadlines is helpful for you, please ask for it from me explicitly. 
+* My goal is to help you become an independent and productive scholar. I am not a micro-manager. However, if you believe that a healthy dose of structure with reminders and deadlines is helpful for you, please ask for it from me explicitly. 
 * I respcet your boundaries and understand that you have multiple priorities in life. I don't think research is the most important thing in life. It is unlikely that you will receive a message from me on holidays and weekends.
 * In general, I am responsive. In return, I also expect you to be responsive. 
 * You don't have to agree with me all the time, but you should provide a well-reasoned explanation. This principle applies to responding to reviewers.
 * I am on your side when you need support. That means I am with you even if you decide that research is not your cup of tea. However, you should take the initiative to communicate your concerns in a timely manner. 
 
 #### My intellectual style
-As a management scholar, I care about theoretical novelty, empirical rigor, and practical relevance. A good paper should at least have one of these three elements.
+As a management scholar, I care about theoretical novelty, empirical rigor, and practical relevance. A good paper should at least have two or more of the elements.
 
 #### Why PhD in Management?
-1. You will NOT become a CEO of a large multinational firm after doing a PhD in management. Doing this will most likely kill your chance to be a CEO. An imperfect but useful analogy is that a management scholar is to a manager as a football game analyst is to a footballer.
+1. You will NOT become a CEO of a large multinational firm after doing a PhD in management. On the contrary, doing this will most likely kill your chance to be a CEO. An imperfect but useful analogy is that a management scholar is to a manager as a football game analyst is to a footballer.
 
  
 
