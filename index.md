@@ -18,7 +18,7 @@ I work as an assistant professor of management and strategy at HKU Business Scho
 
 My research falls into two broad themes. In the first research stream (papers 4-5), I follow an “outside-in” perspective, examining external factors that surround business corporations and employing an institutional theory lens to understand the underlying drivers, mechanisms, and impacts of corporate sustainability. In my second research stream (papers 1-3), I take an “inside-out” perspective, researching internal strategic choices from within business corporations to understand their impacts on the relevant stakeholders and the broader society.
 
-1. Cai Yishu, Yue Qingyuan (Lori), Lin Fangwen, **Yan Shipeng**, Yang Haibin (equal authorship). (forthcoming). “Sunflower movement and corporate donations”. **Administrative Science Quarterly**.
+1. Cai Yishu, Yue Qingyuan (Lori), Lin Fangwen, **Yan Shipeng**, Yang Haibin(equal authorship). 2025. “Hedging against the risk of democratic transition: Corporate philanthropy after the Sunflower Movement in Taiwan”. **Administrative Science Quarterly**, 70(2): 367-402.
 2. Maksimov Vladislav, Wang Lu Stephanie, **Yan Shipeng** (equal authorship). 2022. “Global connectedness and dynamic green capabilities in MNEs”. **Journal of International Business Studies**, 53(4): 723-740. 
 3. **Yan Shipeng**, Almandoz Juan (John), Ferraro Fabrizio. 2021. “The Impact of Logic (In)Compatibility: Green Investing, State Policy, and Corporate Environmental Performance”. **Administrative Science Quarterly**,66(4): 903-944.
 4. **Yan Shipeng**. 2020. “A double-edged sword: Diversity within religion and market emergence”. **Organization Science**, 31(3): 558-575. 
