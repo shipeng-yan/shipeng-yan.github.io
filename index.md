@@ -7,7 +7,7 @@ I work as an assistant professor of management and strategy at HKU Business Scho
 
 
 ## Lastest News
-* 2025: Received three revision requests from **UTD journals** 
+* 2025: Received four revision requests from **UTD journals** 
 * 2024: Received five revision requests from **UTD journals**
 * 2023: Received two revision requests from **UTD journals**
 * 2023: Received Emerging Scholar Award from Org and Natural Environment Division of AOM
@@ -16,26 +16,26 @@ I work as an assistant professor of management and strategy at HKU Business Scho
 
 ## Major Publications
 
-My research falls into two broad themes. In the first research stream (papers 4-5), I follow an “outside-in” perspective, examining external factors that surround business corporations and employing an institutional theory lens to understand the underlying drivers, mechanisms, and impacts of corporate sustainability. In my second research stream (papers 1-3), I take an “inside-out” perspective, researching internal strategic choices from within business corporations to understand their impacts on the relevant stakeholders and the broader society.
+My research falls into two broad themes. In my first research stream (papers 1-3), I take an “inside-out” perspective, researching internal strategic choices from within business corporations to understand their impacts on the relevant stakeholders and the broader society. In the second research stream (papers 4-6), I follow an “outside-in” perspective, examining external factors that surround business corporations and employing an institutional theory lens to understand the underlying drivers, mechanisms, and impacts of corporate sustainability. 
 
-1. Cai Yishu, Yue Qingyuan (Lori), Lin Fangwen, **Yan Shipeng**, Yang Haibin(equal authorship). 2025. “Hedging against the risk of democratic transition: Corporate philanthropy after the Sunflower Movement in Taiwan”. **Administrative Science Quarterly**, 70(2): 367-402.
-2. Maksimov Vladislav, Wang Lu Stephanie, **Yan Shipeng** (equal authorship). 2022. “Global connectedness and dynamic green capabilities in MNEs”. **Journal of International Business Studies**, 53(4): 723-740. 
-3. **Yan Shipeng**, Almandoz Juan (John), Ferraro Fabrizio. 2021. “The Impact of Logic (In)Compatibility: Green Investing, State Policy, and Corporate Environmental Performance”. **Administrative Science Quarterly**,66(4): 903-944.
-4. **Yan Shipeng**. 2020. “A double-edged sword: Diversity within religion and market emergence”. **Organization Science**, 31(3): 558-575. 
-5. **Yan Shipeng**, Ferraro Fabrizio, Almandoz Juan (John). 2019. “The rise of socially responsible investment funds: The paradoxical role of the financial logic”. **Administrative Science Quarterly**, 64(2): 466–501
+1. **Yan, Shipeng**, Jiang Wei, Xu Yue. “ESG investor and supplier hiding”. Conditionally accepted at **Journal of International Business Studies**
+2. Cai Yishu, Yue Qingyuan (Lori), Lin Fangwen, **Yan Shipeng**, Yang Haibin(equal authorship). 2025. “Hedging against the risk of democratic transition: Corporate philanthropy after the Sunflower Movement in Taiwan”. **Administrative Science Quarterly**, 70(2): 367-402.
+3. Maksimov Vladislav, Wang Lu Stephanie, **Yan Shipeng** (equal authorship). 2022. “Global connectedness and dynamic green capabilities in MNEs”. **Journal of International Business Studies**, 53(4): 723-740. 
+4. **Yan Shipeng**, Almandoz Juan (John), Ferraro Fabrizio. 2021. “The Impact of Logic (In)Compatibility: Green Investing, State Policy, and Corporate Environmental Performance”. **Administrative Science Quarterly**,66(4): 903-944.
+5. **Yan Shipeng**. 2020. “A double-edged sword: Diversity within religion and market emergence”. **Organization Science**, 31(3): 558-575. 
+6. **Yan Shipeng**, Ferraro Fabrizio, Almandoz Juan (John). 2019. “The rise of socially responsible investment funds: The paradoxical role of the financial logic”. **Administrative Science Quarterly**, 64(2): 466–501
 
 ## Other Publications
-* Fu Jiawei, Yan Shipeng. Forthcoming. “How Do New Forms of Organizations Manage Institutional Voids? Social Enterprises’ Quest for Sociopolitical Legitimacy”. Business & Society.
-* Zhang, Ze, Yan Shipeng. 2023. “Air pollution and investors’ behavior: A review of recent literature.” The Routledge Handbook of Green Finance: 542–562. London and New York: Routledge.
-* Yan, Shipeng, Ferraro Fabrizio. 2016. “State mediation in market emergence: Socially responsible investing in China”. Research in the Sociology of Organizations, vol. 48B: 173–206. Bingley: Emerald Group Publishing Limited.
-* Bose Indranil, Yan Shipeng. 2011. “The green potential of RFID projects: A case-based analysis”. IT Professional, 13(1).
+* Fu Jiawei, **Yan Shipeng**. Forthcoming. “How Do New Forms of Organizations Manage Institutional Voids? Social Enterprises’ Quest for Sociopolitical Legitimacy”. Business & Society.
+* Zhang, Ze, **Yan Shipeng**. 2023. “Air pollution and investors’ behavior: A review of recent literature.” The Routledge Handbook of Green Finance: 542–562. London and New York: Routledge.
+* **Yan, Shipeng**, Ferraro Fabrizio. 2016. “State mediation in market emergence: Socially responsible investing in China”. Research in the Sociology of Organizations, vol. 48B: 173–206. Bingley: Emerald Group Publishing Limited.
+* Bose Indranil, **Yan Shipeng**. 2011. “The green potential of RFID projects: A case-based analysis”. IT Professional, 13(1).
 
 ## Working papers
 #### Corporate sustainability: 
 * Corporate reputation and environmental expenditure
 * Religion and corporate decarbonization
 * Anti-slavery regulation and supply chain management 
-* ESG investors and supplier hiding
 * ESG ratings and investor reactions
 * ESG investing and carbon re-allocation
 * Banks and environmental innovation
