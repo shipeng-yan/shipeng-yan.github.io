@@ -15,7 +15,7 @@ I work as an assistant professor of management and strategy at HKU Business Scho
 * 2022: Invited to be Deputy Editor for Organization and Environment
 
 ## UTD Publications
-1. **Yan, Shipeng**, Jiang Wei, Xu Yue. “ESG investor and supplier hiding”. Conditionally accepted at **Journal of International Business Studies**
+1. **Yan, Shipeng**, Jiang Wei, Xu Yue. “Global investors, hidden suppliers: How institutions shape the impact of stock market liberalization programs on corporate responsibility”. accepted at **Journal of International Business Studies**
 2. Cai Yishu, Yue Qingyuan (Lori), Lin Fangwen, **Yan Shipeng**, Yang Haibin(equal authorship). 2025. “Hedging against the risk of democratic transition: Corporate philanthropy after the Sunflower Movement in Taiwan”. **Administrative Science Quarterly**, 70(2): 367-402.
 3. Maksimov Vladislav, Wang Lu Stephanie, **Yan Shipeng** (equal authorship). 2022. “Global connectedness and dynamic green capabilities in MNEs”. **Journal of International Business Studies**, 53(4): 723-740. 
 4. **Yan Shipeng**, Almandoz Juan (John), Ferraro Fabrizio. 2021. “The Impact of Logic (In)Compatibility: Green Investing, State Policy, and Corporate Environmental Performance”. **Administrative Science Quarterly**,66(4): 903-944.
