@@ -73,29 +73,9 @@ As a management scholar, I care about theoretical novelty, empirical rigor, and 
 
 
 ## Football/Soccer
-Besides research, I also enjoy playing soccer/football. Here are my latest video clips of soccer plays.
+Besides research, I also enjoy playing soccer/football. Here are my latest youtube clips of soccer plays.
 
-[My favorite solo goals in 2023](https://youtu.be/b5EUvzeQLkQ)
-
-[All goals in 2024](https://youtube.com/shorts/t562GY8KtAc)
-
-[Feb 23, 2025](https://www.youtube.com/shorts/JNS4MypOI2k)
-
-[Mar 24, 2025](https://youtube.com/shorts/Jx1N0HdvRGs)
-
-[Apr 06, 2025](https://youtu.be/1Te8h4NbeDY)
-
-[Apr 13, 2025](https://youtu.be/9NjAh4ns8z0)
-
-[May 4, 2025](https://youtu.be/tbpM1d9e6Rk)
-
-[Jul 6, 2025](https://youtube.com/shorts/xp1nt7TUA-4)
-
-[Jul 14, 2025](https://youtu.be/Edfm8TfCPFg)
-
-[Jul 24, 2025](https://youtu.be/WddUwI1kFhI)
-
-[Jul 11, 2025](https://www.youtube.com/watch?v=xzo8ofKHWEM)
-
-[Aug 02, 2025](https://youtu.be/nXySmnUS2-8)
+* 2023: [My favorite solo goals in 2023](https://youtu.be/b5EUvzeQLkQ)
+* 2024: [All goals in 2024](https://youtube.com/shorts/t562GY8KtAc)
+* 2025: [Feb 23, 2025](https://www.youtube.com/shorts/JNS4MypOI2k); [Mar 24, 2025](https://youtube.com/shorts/Jx1N0HdvRGs); [Apr 06, 2025](https://youtu.be/1Te8h4NbeDY); [Apr 13, 2025](https://youtu.be/9NjAh4ns8z0); [May 4, 2025](https://youtu.be/tbpM1d9e6Rk); [Jul 6, 2025](https://youtube.com/shorts/xp1nt7TUA-4); [Jul 14, 2025](https://youtu.be/Edfm8TfCPFg); [Jul 24, 2025](https://youtu.be/WddUwI1kFhI); [Jul 11, 2025](https://www.youtube.com/watch?v=xzo8ofKHWEM); [Aug 02, 2025](https://youtu.be/nXySmnUS2-8)
 
