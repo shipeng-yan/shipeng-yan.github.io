@@ -73,7 +73,7 @@ As a management scholar, I care about theoretical novelty, empirical rigor, and 
 
 
 ## Football/Soccer
-Besides research, I also enjoy playing soccer/football. Here are my latest youtube clips of soccer plays.
+Besides research, I also enjoy playing soccer/football. Here are my latest youtube clips of soccer plays (each clip is less than 20 seconds on average).
 
 * 2023: [My favorite solo goals in 2023](https://youtu.be/b5EUvzeQLkQ)
 * 2024: [All goals in 2024](https://youtube.com/shorts/t562GY8KtAc)
