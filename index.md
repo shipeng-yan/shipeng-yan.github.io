@@ -1,6 +1,3 @@
-
-
-## Bio
 <img src="thumbnail.png" style="width: 500px; height: auto;">
 
 Last update: 5 Aug 2025
@@ -68,9 +65,37 @@ As a management scholar, I care about theoretical novelty, empirical rigor, and 
 
  
 
-2. Management research treats managerial phenomena as if they can be scientifically analyzed and generalized and develop abstract theories to describe complex managerial issues in simple ways. Sometimes certain scholars go too far in developing theories on phenomena that few people care about. Sometimes certain scholars are not careful in developing explanations that are logically coherent and scientifically rigorous. Management research must balance between academic rigor and practical relevance. 
+2. Management research treats managerial phenomena as if they can be scientifically analyzed and generalized and develop abstract theories to describe complex managerial issues in simple ways. Sometimes certain scholars go too far in developing theories on phenomena that few people care about. Sometimes certain scholars are not careful in developing explanations that are logically coherent and scientifically rigorous. Management research must balance between academic rigor and practical relevance.
 
- 
+
 
 3. As a management scholar, you will have the opportunity to help train and educate the next generation of corporate leaders. Future and current managers love to go back to business schools to reflect on their past experiences and learn from your research if it is interesting and relevant.
+
+
+## Football/Soccer
+Besides research, I also enjoy playing soccer/football. Here are my latest video clips of soccer plays.
+
+[My favorite solo goals in 2023](https://youtu.be/b5EUvzeQLkQ)
+
+[All goals in 2024](https://youtube.com/shorts/t562GY8KtAc)
+
+[Feb 23, 2025](https://www.youtube.com/shorts/JNS4MypOI2k)
+
+[Mar 24, 2025](https://youtube.com/shorts/Jx1N0HdvRGs)
+
+[Apr 06, 2025](https://youtu.be/1Te8h4NbeDY)
+
+[Apr 13, 2025](https://youtu.be/9NjAh4ns8z0)
+
+[May 4, 2025](https://youtu.be/tbpM1d9e6Rk)
+
+[Jul 6, 2025](https://youtube.com/shorts/xp1nt7TUA-4)
+
+[Jul 14, 2025](https://youtu.be/Edfm8TfCPFg)
+
+[Jul 24, 2025](https://youtu.be/WddUwI1kFhI)
+
+[Jul 11, 2025](https://www.youtube.com/watch?v=xzo8ofKHWEM)
+
+[Aug 02, 2025](https://youtu.be/nXySmnUS2-8)
 
