@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yan, Jiang, and Xu (2025, JIBS)</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .main-title {
+            text-align: center;
+            font-size: 28px;
+            margin: 30px 0 40px;
+            color: #222;
+        }
+        
+        .hypothesis {
+            font-weight: bold;
+            font-size: 18px;
+            margin: 40px 0 20px;
+            color: #333;
+        }
+        
+        .chart-container {
+            width: 100%;
+            height: 400px;
+            margin: 20px 0 40px;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        
+        p {
+            font-size: 16px;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="main-title">Supplier identity disclosure changes</h1>
+
+    <div class="hypothesis">Hypothesis 1 (H1): There is a negative association between corporate participation in stock market liberalization programs and voluntary corporate supplier identity disclosure in emerging markets.</div>
+    <p>The average disclosure rate changes from 0.183 (pre-participation) to 0.156 (post-participation).</p>
+    <div class="chart-container">
+        <canvas id="h1Chart"></canvas>
+    </div>
+
+    <div class="hypothesis">Hypothesis 2 (H2): The negative association between corporate participation in stock market liberalization programs and voluntary corporate supplier identity disclosure in emerging markets is weakened by investor ownership under QFIIs.</div>
+    <p>The average disclosure rate for pilot firms in the high QFII group increases from 0.107 in the pre-participation period to 0.123 post-participation, whereas it decreases from 0.164 to 0.157 for pilot firms in the low QFII group and from 0.192 to 0.161 in the no QFII group.</p>
+    <div class="chart-container">
+        <canvas id="h2Chart"></canvas>
+    </div>
+
+    <div class="hypothesis">Hypothesis 3 (H3): The negative association between corporate participation in stock market liberalization programs and voluntary corporate supplier identity disclosure in emerging markets is weakened by focal firms’ participation in environmental certification programs.</div>
+    <p>The average disclosure rate for pilot firms in the strongly ISO-committed group increases from 0.253 in the pre-participation period to 0.367 post-participation, whereas it decreases from 0.217 to 0.153 for pilot firms in the weakly ISO-committed group and from 0.178 to 0.155 in the not ISO-committed group.</p>
+    <div class="chart-container">
+        <canvas id="h3Chart"></canvas>
+    </div>
+
+    <div class="hypothesis">Hypothesis 4 (H4): The negative association between corporate participation in stock market liberalization programs and voluntary corporate supplier identity disclosure in emerging markets is weakened by top leaders’ overseas experience.</div>
+    <p>The average disclosure rate for pilot firms in the group with overseas-experienced chairpersons increases from 0.119 in the pre-participation period to 0.153 post-participation, whereas it decreases from 0.185 to 0.157 for pilot firms in the group in which the chairpersons do not have overseas experience.</p>
+    <div class="chart-container">
+        <canvas id="h4Chart"></canvas>
+    </div>
+
+    <script>
+        // Helper function to create consistent charts
+        function createChart(canvasId, labels, preData, postData, preColor, postColor) {
+            const ctx = document.getElementById(canvasId).getContext('2d');
+            const prePercent = preData.map(value => (value * 100).toFixed(1));
+            const postPercent = postData.map(value => (value * 100).toFixed(1));
+
+            return new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: 'Pre-participation',
+                            data: preData,
+                            backgroundColor: preColor,
+                            borderColor: preColor,
+                            borderWidth: 1
+                        },
+                        {
+                            label: 'Post-participation',
+                            data: postData,
+                            backgroundColor: postColor,
+                            borderColor: postColor,
+                            borderWidth: 1
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                            labels: {
+                                font: {
+                                    family: 'Times New Roman'
+                                }
+                            }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return context.dataset.label + ': ' + (context.raw * 100).toFixed(1) + '%';
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Disclosure Rate (%)',
+                                font: {
+                                    family: 'Times New Roman'
+                                }
+                            },
+                            ticks: {
+                                callback: function(value) {
+                                    return (value * 100).toFixed(0) + '%';
+                                },
+                                font: {
+                                    family: 'Times New Roman'
+                                }
+                            }
+                        },
+                        x: {
+                            ticks: {
+                                font: {
+                                    family: 'Times New Roman'
+                                }
+                            }
+                        }
+                    }
+                },
+                plugins: [{
+                    id: 'barLabels',
+                    afterDraw: function(chart) {
+                        const ctx = chart.ctx;
+                        chart.data.datasets.forEach((dataset, datasetIndex) => {
+                            const meta = chart.getDatasetMeta(datasetIndex);
+                            meta.data.forEach((element, index) => {
+                                // Get the percentage value to display
+                                const value = datasetIndex === 0 ? prePercent[index] : postPercent[index];
+                                
+                                // Draw text on top of bars
+                                ctx.save();
+                                ctx.textAlign = 'center';
+                                ctx.textBaseline = 'bottom';
+                                ctx.fillStyle = '#333';
+                                ctx.font = 'bold 12px "Times New Roman", Times, serif';
+                                ctx.fillText(value + '%', element.x, element.y - 5);
+                                ctx.restore();
+                            });
+                        });
+                    }
+                }]
+            });
+        }
+
+        // Initialize all charts when the page is fully loaded
+        window.onload = function() {
+            // H1 Chart - Blue color scheme
+            createChart(
+                'h1Chart',
+                ['Overall'],
+                [0.183],
+                [0.156],
+                'rgba(66, 135, 245, 0.5)',   // Light blue
+                'rgba(66, 135, 245, 0.9)'    // Dark blue
+            );
+
+            // H2 Chart - Green color scheme
+            createChart(
+                'h2Chart',
+                ['High QFII', 'Low QFII', 'No QFII'],
+                [0.107, 0.164, 0.192],
+                [0.123, 0.157, 0.161],
+                'rgba(76, 175, 80, 0.5)',    // Light green
+                'rgba(76, 175, 80, 0.9)'     // Dark green
+            );
+
+            // H3 Chart - Purple color scheme
+            createChart(
+                'h3Chart',
+                ['Strongly ISO', 'Weakly ISO', 'Not ISO'],
+                [0.253, 0.217, 0.178],
+                [0.367, 0.153, 0.155],
+                'rgba(156, 39, 176, 0.5)',   // Light purple
+                'rgba(156, 39, 176, 0.9)'    // Dark purple
+            );
+
+            // H4 Chart - Orange color scheme
+            createChart(
+                'h4Chart',
+                ['Overseas Experience', 'No Overseas Experience'],
+                [0.119, 0.185],
+                [0.153, 0.157],
+                'rgba(255, 152, 0, 0.5)',    // Light orange
+                'rgba(255, 152, 0, 0.9)'     // Dark orange
+            );
+        };
+    </script>
+</body>
+</html>
+    
