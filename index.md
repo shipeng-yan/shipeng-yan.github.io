@@ -72,10 +72,12 @@ As a management scholar, I care about theoretical novelty, empirical rigor, and 
 3. As a management scholar, you will have the opportunity to help train and educate the next generation of corporate leaders. Future and current managers love to go back to business schools to reflect on their past experiences and learn from your research if it is interesting and relevant.
 
 
-## Football/Soccer
-Besides research, I also enjoy playing soccer/football. Here are my latest youtube clips of soccer plays (each clip is less than 20 seconds on average).
+## Other
+Besides research, I also enjoy playing soccer/football. Here are my latest youtube clips of soccer plays. Each clip is less than 20 seconds on average :)
 
 * 2023: [My favorite solo goals in 2023](https://youtu.be/b5EUvzeQLkQ)
 * 2024: [All goals in 2024](https://youtube.com/shorts/t562GY8KtAc)
-* 2025: [Feb 23, 2025](https://www.youtube.com/shorts/JNS4MypOI2k); [Mar 24, 2025](https://youtube.com/shorts/Jx1N0HdvRGs); [Apr 06, 2025](https://youtu.be/1Te8h4NbeDY); [Apr 13, 2025](https://youtu.be/9NjAh4ns8z0); [May 4, 2025](https://youtu.be/tbpM1d9e6Rk); [Jul 6, 2025](https://youtube.com/shorts/xp1nt7TUA-4); [Jul 14, 2025](https://youtu.be/Edfm8TfCPFg); [Jul 24, 2025](https://youtu.be/WddUwI1kFhI); [Jul 11, 2025](https://www.youtube.com/watch?v=xzo8ofKHWEM); [Aug 02, 2025](https://youtu.be/nXySmnUS2-8)
+* 2025: I start to play in better facilities and my video editing skills have improved since 2025, so there are more clips :)
+  
+[Feb 23, 2025](https://www.youtube.com/shorts/JNS4MypOI2k); [Mar 24, 2025](https://youtube.com/shorts/Jx1N0HdvRGs); [Apr 06, 2025](https://youtu.be/1Te8h4NbeDY); [Apr 13, 2025](https://youtu.be/9NjAh4ns8z0); [May 4, 2025](https://youtu.be/tbpM1d9e6Rk); [Jul 6, 2025](https://youtube.com/shorts/xp1nt7TUA-4); [Jul 14, 2025](https://youtu.be/Edfm8TfCPFg); [Jul 24, 2025](https://youtu.be/WddUwI1kFhI); [Jul 11, 2025](https://www.youtube.com/watch?v=xzo8ofKHWEM); [Aug 02, 2025](https://youtu.be/nXySmnUS2-8)
 
