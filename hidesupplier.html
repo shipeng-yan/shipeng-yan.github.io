@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yan, Jiang, and Xu, JIBS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        canvas {
+            max-height: 400px;
+            width: 100% !important;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto p-6">
+        <h1 class="text-3xl font-bold text-center mb-6">Disclosure Rate Impact Analysis</h1>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded shadow">
+                <h2 class="text-xl font-semibold mb-4">Overall Disclosure Trends</h2>
+                <canvas id="overallChart" class="w-full"></canvas>
+                <div class="flex items-center mt-2">
+                    <span class="w-4 h-4 inline-block mr-2" style="background-color: rgba(54, 162, 235, 0.3);"></span><span>Pre-Participation</span>
+                    <span class="w-4 h-4 inline-block mr-2 ml-4" style="background-color: rgba(54, 162, 235, 0.9);"></span><span>Post-Participation</span>
+                </div>
+            </div>
+            <div class="bg-white p-6 rounded shadow">
+                <h2 class="text-xl font-semibold mb-4">QFII Group Disclosure Trends</h2>
+                <canvas id="qfiiChart" class="w-full"></canvas>
+                <div class="flex items-center mt-2">
+                    <span class="w-4 h-4 inline-block mr-2" style="background-color: rgba(75, 192, 192, 0.3);"></span><span>Pre-Participation</span>
+                    <span class="w-4 h-4 inline-block mr-2 ml-4" style="background-color: rgba(75, 192, 192, 0.9);"></span><span>Post-Participation</span>
+                </div>
+            </div>
+            <div class="bg-white p-6 rounded shadow">
+                <h2 class="text-xl font-semibold mb-4">ISO-Commitment Disclosure Trends</h2>
+                <canvas id="isoChart" class="w-full"></canvas>
+                <div class="flex items-center mt-2">
+                    <span class="w-4 h-4 inline-block mr-2" style="background-color: rgba(255, 99, 132, 0.3);"></span><span>Pre-Participation</span>
+                    <span class="w-4 h-4 inline-block mr-2 ml-4" style="background-color: rgba(255, 99, 132, 0.9);"></span><span>Post-Participation</span>
+                </div>
+            </div>
+            <div class="bg-white p-6 rounded shadow">
+                <h2 class="text-xl font-semibold mb-4">Overseas Experience Disclosure Trends</h2>
+                <canvas id="overseasChart" class="w-full"></canvas>
+                <div class="flex items-center mt-2">
+                    <span class="w-4 h-4 inline-block mr-2" style="background-color: rgba(255, 206, 86, 0.3);"></span><span>Pre-Participation</span>
+                    <span class="w-4 h-4 inline-block mr-2 ml-4" style="background-color: rgba(255, 206, 86, 0.9);"></span><span>Post-Participation</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Overall Disclosure Trends Chart
+        const overallCtx = document.getElementById('overallChart').getContext('2d');
+        new Chart(overallCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Pre-Participation', 'Post-Participation'],
+                datasets: [{
+                    label: 'Disclosure Rate',
+                    data: [18.3, 15.6], // Converted to percentage
+                    backgroundColor: ['rgba(54, 162, 235, 0.3)', 'rgba(54, 162, 235, 0.9)'],
+                    borderColor: ['rgba(54, 162, 235, 1)', 'rgba(54, 162, 235, 1)'],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: { beginAtZero: true, max: 25, ticks: { stepSize: 5, callback: value => `${value}%`, font: { size: 14 } } }
+                },
+                plugins: {
+                    legend: { display: false },
+                    tooltip: { enabled: true },
+                    datalabels: {
+                        anchor: 'end',
+                        align: 'top',
+                        formatter: (value) => `${value}%`,
+                        font: { size: 16 }
+                    }
+                }
+            }
+        });
+
+        // QFII Group Disclosure Trends Chart
+        const qfiiCtx = document.getElementById('qfiiChart').getContext('2d');
+        new Chart(qfiiCtx, {
+            type: 'bar',
+            data: {
+                labels: ['High QFII Pre', 'High QFII Post', 'Low QFII Pre', 'Low QFII Post', 'No QFII Pre', 'No QFII Post'],
+                datasets: [{
+                    label: 'Disclosure Rate',
+                    data: [10.7, 12.3, 16.4, 15.7, 19.2, 16.1], // Converted to percentage
+                    backgroundColor: ['rgba(75, 192, 192, 0.3)', 'rgba(75, 192, 192, 0.9)', 'rgba(75, 192, 192, 0.3)', 'rgba(75, 192, 192, 0.9)', 'rgba(75, 192, 192, 0.3)', 'rgba(75, 192, 192, 0.9)'],
+                    borderColor: ['rgba(75, 192, 192, 1)', 'rgba(75, 192, 192, 1)', 'rgba(75, 192, 192, 1)', 'rgba(75, 192, 192, 1)', 'rgba(75, 192, 192, 1)', 'rgba(75, 192, 192, 1)'],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: { beginAtZero: true, max: 25, ticks: { stepSize: 5, callback: value => `${value}%`, font: { size: 14 } } }
+                },
+                plugins: {
+                    legend: { display: false },
+                    tooltip: { enabled: true },
+                    datalabels: {
+                        anchor: 'end',
+                        align: 'top',
+                        formatter: (value) => `${value}%`,
+                        font: { size: 16 }
+                    }
+                }
+            }
+        });
+
+        // ISO-Commitment Disclosure Trends Chart
+        const isoCtx = document.getElementById('isoChart').getContext('2d');
+        new Chart(isoCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Strong ISO Pre', 'Strong ISO Post', 'Weak ISO Pre', 'Weak ISO Post', 'No ISO Pre', 'No ISO Post'],
+                datasets: [{
+                    label: 'Disclosure Rate',
+                    data: [25.3, 36.7, 21.7, 15.3, 17.8, 15.5], // Converted to percentage
+                    backgroundColor: ['rgba(255, 99, 132, 0.3)', 'rgba(255, 99, 132, 0.9)', 'rgba(255, 99, 132, 0.3)', 'rgba(255, 99, 132, 0.9)', 'rgba(255, 99, 132, 0.3)', 'rgba(255, 99, 132, 0.9)'],
+                    borderColor: ['rgba(255, 99, 132, 1)', 'rgba(255, 99, 132, 1)', 'rgba(255, 99, 132, 1)', 'rgba(255, 99, 132, 1)', 'rgba(255, 99, 132, 1)', 'rgba(255, 99, 132, 1)'],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: { beginAtZero: true, max: 40, ticks: { stepSize: 5, callback: value => `${value}%`, font: { size: 14 } } }
+                },
+                plugins: {
+                    legend: { display: false },
+                    tooltip: { enabled: true },
+                    datalabels: {
+                        anchor: 'end',
+                        align: 'top',
+                        formatter: (value) => `${value}%`,
+                        font: { size: 16 }
+                    }
+                }
+            }
+        });
+
+        // Overseas Experience Disclosure Trends Chart
+        const overseasCtx = document.getElementById('overseasChart').getContext('2d');
+        new Chart(overseasCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Overseas Exp Pre', 'Overseas Exp Post', 'No Overseas Exp Pre', 'No Overseas Exp Post'],
+                datasets: [{
+                    label: 'Disclosure Rate',
+                    data: [11.9, 15.3, 18.5, 15.7], // Converted to percentage
+                    backgroundColor: ['rgba(255, 206, 86, 0.3)', 'rgba(255, 206, 86, 0.9)', 'rgba(255, 206, 86, 0.3)', 'rgba(255, 206, 86, 0.9)'],
+                    borderColor: ['rgba(255, 206, 86, 1)', 'rgba(255, 206, 86, 1)', 'rgba(255, 206, 86, 1)', 'rgba(255, 206, 86, 1)'],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: { beginAtZero: true, max: 25, ticks: { stepSize: 5, callback: value => `${value}%`, font: { size: 14 } } }
+                },
+                plugins: {
+                    legend: { display: false },
+                    tooltip: { enabled: true },
+                    datalabels: {
+                        anchor: 'end',
+                        align: 'top',
+                        formatter: (value) => `${value}%`,
+                        font: { size: 16 }
+                    }
+                }
+            }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0/dist/chartjs-plugin-datalabels.min.js"></script>
+</body>
+</html>
