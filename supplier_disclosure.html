@@ -3,80 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yan, Jiang, and Xu (2025, JIBS)</title>
+    <title>Supplier disclosure changes</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
     <style>
         body {
             font-family: 'Times New Roman', Times, serif;
-            max-width: 1000px;
+            max-width: 1200px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 15px;
             line-height: 1.6;
+            background-color: #f8f9fa;
         }
         
         .main-title {
             text-align: center;
-            font-size: 28px;
-            margin: 30px 0 40px;
+            font-size: 24px;
+            margin: 20px 0 30px;
             color: #222;
+            padding: 0 10px;
         }
         
         .hypothesis {
             font-weight: bold;
             font-size: 18px;
-            margin: 40px 0 20px;
+            margin: 30px 0 15px;
             color: #333;
+            padding: 0 10px;
+        }
+        
+        .hypothesis span {
+            font-weight: normal;
         }
         
         .chart-container {
             width: 100%;
-            height: 400px;
-            margin: 20px 0 40px;
-            background-color: #f9f9f9;
-            padding: 20px;
-            border-radius: 5px;
+            height: 300px;
+            margin: 15px 0 30px;
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             box-sizing: border-box;
         }
         
         p {
             font-size: 16px;
             color: #444;
+            padding: 0 10px;
+            margin-bottom: 15px;
+        }
+        
+        /* Responsive adjustments for smaller screens */
+        @media (max-width: 600px) {
+            .main-title {
+                font-size: 20px;
+            }
+            
+            .hypothesis {
+                font-size: 16px;
+            }
+            
+            .chart-container {
+                height: 250px;
+                padding: 10px;
+                margin: 10px 0 20px;
+            }
+            
+            p {
+                font-size: 15px;
+            }
         }
     </style>
 </head>
 <body>
-    <h1 class="main-title">Yan, Jiang, and Xu (2025, JIBS): Supplier identity disclosure changes</h1>
+    <h1 class="main-title">Supplier disclosure changes</h1>
 
-    <div class="hypothesis">Hypothesis 1 (H1): There is a negative association between corporate participation in stock market liberalization programs and voluntary corporate supplier identity disclosure in emerging markets.</div>
+    <div class="hypothesis">Hypothesis 1 (H1): <span>There is a negative association between corporate participation in stock market liberalization programs and voluntary corporate supplier identity disclosure in emerging markets.</span></div>
     <p>The average disclosure rate changes from 0.183 (pre-participation) to 0.156 (post-participation).</p>
     <div class="chart-container">
         <canvas id="h1Chart"></canvas>
     </div>
 
-    <div class="hypothesis">Hypothesis 2 (H2): The negative association between corporate participation in stock market liberalization programs and voluntary corporate supplier identity disclosure in emerging markets is weakened by investor ownership under QFIIs.</div>
+    <div class="hypothesis">Hypothesis 2 (H2): <span>The negative association between corporate participation in stock market liberalization programs and voluntary corporate supplier identity disclosure in emerging markets is weakened by investor ownership under QFIIs.</span></div>
     <p>The average disclosure rate for pilot firms in the high QFII group increases from 0.107 in the pre-participation period to 0.123 post-participation, whereas it decreases from 0.164 to 0.157 for pilot firms in the low QFII group and from 0.192 to 0.161 in the no QFII group.</p>
     <div class="chart-container">
         <canvas id="h2Chart"></canvas>
     </div>
 
-    <div class="hypothesis">Hypothesis 3 (H3): The negative association between corporate participation in stock market liberalization programs and voluntary corporate supplier identity disclosure in emerging markets is weakened by focal firms’ participation in environmental certification programs.</div>
+    <div class="hypothesis">Hypothesis 3 (H3): <span>The negative association between corporate participation in stock market liberalization programs and voluntary corporate supplier identity disclosure in emerging markets is weakened by focal firms’ participation in environmental certification programs.</span></div>
     <p>The average disclosure rate for pilot firms in the strongly ISO-committed group increases from 0.253 in the pre-participation period to 0.367 post-participation, whereas it decreases from 0.217 to 0.153 for pilot firms in the weakly ISO-committed group and from 0.178 to 0.155 in the not ISO-committed group.</p>
     <div class="chart-container">
         <canvas id="h3Chart"></canvas>
     </div>
 
-    <div class="hypothesis">Hypothesis 4 (H4): The negative association between corporate participation in stock market liberalization programs and voluntary corporate supplier identity disclosure in emerging markets is weakened by top leaders’ overseas experience.</div>
+    <div class="hypothesis">Hypothesis 4 (H4): <span>The negative association between corporate participation in stock market liberalization programs and voluntary corporate supplier identity disclosure in emerging markets is weakened by top leaders’ overseas experience.</span></div>
     <p>The average disclosure rate for pilot firms in the group with overseas-experienced chairpersons increases from 0.119 in the pre-participation period to 0.153 post-participation, whereas it decreases from 0.185 to 0.157 for pilot firms in the group in which the chairpersons do not have overseas experience.</p>
     <div class="chart-container">
         <canvas id="h4Chart"></canvas>
     </div>
 
     <script>
-        // Helper function to create consistent charts
+        // Helper function to create responsive charts
         function createChart(canvasId, labels, preData, postData, preColor, postColor) {
             const ctx = document.getElementById(canvasId).getContext('2d');
             const prePercent = preData.map(value => (value * 100).toFixed(1));
             const postPercent = postData.map(value => (value * 100).toFixed(1));
+
+            // Adjust font size based on screen width
+            const isMobile = window.innerWidth < 600;
+            const labelFontSize = isMobile ? 10 : 12;
+            const titleFontSize = isMobile ? 14 : 16;
 
             return new Chart(ctx, {
                 type: 'bar',
@@ -101,13 +137,16 @@
                 },
                 options: {
                     responsive: true,
+                    maintainAspectRatio: false,
                     plugins: {
                         legend: {
                             position: 'top',
                             labels: {
                                 font: {
-                                    family: 'Times New Roman'
-                                }
+                                    family: 'Times New Roman',
+                                    size: labelFontSize
+                                },
+                                boxWidth: isMobile ? 15 : 20
                             }
                         },
                         tooltip: {
@@ -125,7 +164,8 @@
                                 display: true,
                                 text: 'Disclosure Rate (%)',
                                 font: {
-                                    family: 'Times New Roman'
+                                    family: 'Times New Roman',
+                                    size: labelFontSize
                                 }
                             },
                             ticks: {
@@ -133,15 +173,24 @@
                                     return (value * 100).toFixed(0) + '%';
                                 },
                                 font: {
-                                    family: 'Times New Roman'
+                                    family: 'Times New Roman',
+                                    size: labelFontSize
                                 }
+                            },
+                            grid: {
+                                display: true,
+                                color: 'rgba(0, 0, 0, 0.05)'
                             }
                         },
                         x: {
                             ticks: {
                                 font: {
-                                    family: 'Times New Roman'
+                                    family: 'Times New Roman',
+                                    size: labelFontSize
                                 }
+                            },
+                            grid: {
+                                display: false
                             }
                         }
                     }
@@ -156,13 +205,13 @@
                                 // Get the percentage value to display
                                 const value = datasetIndex === 0 ? prePercent[index] : postPercent[index];
                                 
-                                // Draw text on top of bars
+                                // Draw text on top of bars with responsive font size
                                 ctx.save();
                                 ctx.textAlign = 'center';
                                 ctx.textBaseline = 'bottom';
                                 ctx.fillStyle = '#333';
-                                ctx.font = 'bold 12px "Times New Roman", Times, serif';
-                                ctx.fillText(value + '%', element.x, element.y - 5);
+                                ctx.font = `bold ${labelFontSize}px "Times New Roman", Times, serif`;
+                                ctx.fillText(value + '%', element.x, element.y - 3);
                                 ctx.restore();
                             });
                         });
@@ -171,15 +220,15 @@
             });
         }
 
-        // Initialize all charts when the page is fully loaded
-        window.onload = function() {
+        // Initialize charts when page loads and handle window resize
+        function initCharts() {
             // H1 Chart - Blue color scheme
             createChart(
                 'h1Chart',
                 ['Overall'],
                 [0.183],
                 [0.156],
-                'rgba(66, 135, 245, 0.5)',   // Light blue
+                'rgba(66, 135, 245, 0.3)',   // Light blue
                 'rgba(66, 135, 245, 0.9)'    // Dark blue
             );
 
@@ -189,7 +238,7 @@
                 ['High QFII', 'Low QFII', 'No QFII'],
                 [0.107, 0.164, 0.192],
                 [0.123, 0.157, 0.161],
-                'rgba(76, 175, 80, 0.5)',    // Light green
+                'rgba(76, 175, 80, 0.3)',    // Light green
                 'rgba(76, 175, 80, 0.9)'     // Dark green
             );
 
@@ -199,7 +248,7 @@
                 ['Strongly ISO', 'Weakly ISO', 'Not ISO'],
                 [0.253, 0.217, 0.178],
                 [0.367, 0.153, 0.155],
-                'rgba(156, 39, 176, 0.5)',   // Light purple
+                'rgba(156, 39, 176, 0.3)',   // Light purple
                 'rgba(156, 39, 176, 0.9)'    // Dark purple
             );
 
@@ -209,10 +258,25 @@
                 ['Overseas Experience', 'No Overseas Experience'],
                 [0.119, 0.185],
                 [0.153, 0.157],
-                'rgba(255, 152, 0, 0.5)',    // Light orange
+                'rgba(255, 152, 0, 0.3)',    // Light orange
                 'rgba(255, 152, 0, 0.9)'     // Dark orange
             );
-        };
+        }
+
+        // Initialize charts when window loads
+        window.onload = initCharts;
+
+        // Handle window resize for responsive charts
+        window.addEventListener('resize', function() {
+            // Destroy existing charts before recreating
+            Chart.getChart('h1Chart')?.destroy();
+            Chart.getChart('h2Chart')?.destroy();
+            Chart.getChart('h3Chart')?.destroy();
+            Chart.getChart('h4Chart')?.destroy();
+            
+            // Reinitialize charts with new dimensions
+            initCharts();
+        });
     </script>
 </body>
 </html>
