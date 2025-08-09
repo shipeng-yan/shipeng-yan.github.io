@@ -1,6 +1,6 @@
 <img src="thumbnail.png" style="width: 500px; height: auto;">
 
-Last update: 5 Aug 2025
+Last update: 9 Aug 2025
 
 I work as an assistant professor of management and strategy at HKU Business School. With a background in organization theory, I specialize in corporate sustainability, ESG, and institutional analysis. I hold a PhD in Management from IESE Business School and a Bachelor's in Business Administration (Information Systems) from the University of Hong Kong. 
 
@@ -80,5 +80,5 @@ Besides research, I also enjoy playing soccer/football. Here are my latest youtu
 * 2024: [All goals in 2024](https://youtube.com/shorts/t562GY8KtAc)
 * 2025: I start to play in better facilities and my video editing skills have improved since 2025, so there are more clips :)
   
-[Feb 23, 2025](https://www.youtube.com/shorts/JNS4MypOI2k); [Mar 24, 2025](https://youtube.com/shorts/Jx1N0HdvRGs); [Apr 06, 2025](https://youtu.be/1Te8h4NbeDY); [Apr 13, 2025](https://youtu.be/9NjAh4ns8z0); [May 4, 2025](https://youtu.be/tbpM1d9e6Rk); [Jul 6, 2025](https://youtube.com/shorts/xp1nt7TUA-4); [Jul 14, 2025](https://youtu.be/Edfm8TfCPFg); [Jul 24, 2025](https://youtu.be/WddUwI1kFhI); [Jul 11, 2025](https://www.youtube.com/watch?v=xzo8ofKHWEM); [Aug 02, 2025](https://youtu.be/nXySmnUS2-8)
+[Feb 23, 2025](https://www.youtube.com/shorts/JNS4MypOI2k); [Mar 24, 2025](https://youtube.com/shorts/Jx1N0HdvRGs); [Apr 06, 2025](https://youtu.be/1Te8h4NbeDY); [Apr 13, 2025](https://youtu.be/9NjAh4ns8z0); [May 4, 2025](https://youtu.be/tbpM1d9e6Rk); [Jul 6, 2025](https://youtube.com/shorts/xp1nt7TUA-4); [Jul 14, 2025](https://youtu.be/Edfm8TfCPFg); [Jul 24, 2025](https://youtu.be/WddUwI1kFhI); [Jul 11, 2025](https://www.youtube.com/watch?v=xzo8ofKHWEM); [Aug 02, 2025](https://youtu.be/nXySmnUS2-8);[Aug 09, 2025](https://www.youtube.com/watch?v=nkd7WbKuj1Q)
 
