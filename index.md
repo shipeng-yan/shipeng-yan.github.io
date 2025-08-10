@@ -1,6 +1,6 @@
 <img src="thumbnail.png" style="width: 500px; height: auto;">
 
-Last update: 9 Aug 2025
+Last update: 10 Aug 2025
 
 I work as an assistant professor of management and strategy at HKU Business School. With a background in organization theory, I specialize in corporate sustainability, ESG, and institutional analysis. I hold a PhD in Management from IESE Business School and a Bachelor's in Business Administration (Information Systems) from the University of Hong Kong. 
 
@@ -15,7 +15,8 @@ I work as an assistant professor of management and strategy at HKU Business Scho
 
 ## UTD Publications
 1. Yan Shipeng, Jiang Wei, Xu Yue. 2025 (Forthcoming). [“Global investors, hidden suppliers: How institutions shape the impact of stock market liberalization programs on corporate responsibility.”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5373163). ***Journal of International Business Studies***
-    * [Click to see a visualization of our main findings](https://shipeng-yan.github.io/supplier_disclosure.html)   
+    * [Click to see a visualization of our main findings](https://shipeng-yan.github.io/supplier_disclosure.html)
+    * [Click to see a 7-min video explainer](https://youtu.be/NRtCWklKnHY)
 2. Cai Yishu, Yue Qingyuan (Lori), Lin Fangwen, Yan Shipeng, Yang Haibin (equal authorship). 2025. [“Hedging against the risk of democratic transition: Corporate philanthropy after the Sunflower Movement in Taiwan.”](https://shipeng-yan.github.io/assets/Cai%20et%20al.%2C%202025.pdf). ***Administrative Science Quarterly***, 70(2): 367-402.
 3. Maksimov Vladislav, Wang Stephanie, Yan Shipeng (equal authorship). 2022. [“Global connectedness and dynamic green capabilities in MNEs.”](https://shipeng-yan.github.io/assets/Maksimov%2C%20Wang%2C%20Yan%20-%202019.pdf). ***Journal of International Business Studies***, 53(4): 723-740. 
 4. Yan Shipeng, Almandoz Juan (John), Ferraro Fabrizio. 2021. [“The impact of logic (in)compatibility: Green investing, state Policy, and corporate environmental performance.”](https://shipeng-yan.github.io/assets/Yan%20et%20al.%2C%202021.pdf). ***Administrative Science Quarterly***,66(4): 903-944.
