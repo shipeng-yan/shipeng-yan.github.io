@@ -22,7 +22,9 @@ I work as an assistant professor of management and strategy at HKU Business Scho
 
 3. Maksimov Vladislav, Wang Stephanie, Yan Shipeng (equal authorship). 2022. [“Global connectedness and dynamic green capabilities in MNEs.”](https://shipeng-yan.github.io/assets/Maksimov%2C%20Wang%2C%20Yan%20-%202019.pdf). ***Journal of International Business Studies***, 53(4): 723-740. 
 4. Yan Shipeng, Almandoz Juan (John), Ferraro Fabrizio. 2021. [“The impact of logic (in)compatibility: Green investing, state Policy, and corporate environmental performance.”](https://shipeng-yan.github.io/assets/Yan%20et%20al.%2C%202021.pdf). ***Administrative Science Quarterly***,66(4): 903-944.
-5. Yan Shipeng. 2020. [“A double-edged sword: Diversity within religion and market emergence.”](https://shipeng-yan.github.io/assets/Yan%20-%202020.pdf). ***Organization Science***, 31(3): 558-575. 
+5. Yan Shipeng. 2020. [“A double-edged sword: Diversity within religion and market emergence.”](https://shipeng-yan.github.io/assets/Yan%20-%202020.pdf). ***Organization Science***, 31(3): 558-575.
+    * [Click to see a 6-min video explainer](https://youtu.be/O_Er8amMqrs)
+
 6. Yan Shipeng, Ferraro Fabrizio, Almandoz Juan (John). 2019. [“The rise of socially responsible investment funds: The paradoxical role of the financial logic.”](https://shipeng-yan.github.io/assets/Yan%2C%20Ferraro%2C%20Almandoz%20-%202019.pdf). ***Administrative Science Quarterly***, 64(2): 466–501
 
 ## Other Publications
