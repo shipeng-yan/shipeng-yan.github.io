@@ -29,6 +29,7 @@ I work as an assistant professor of management and strategy at HKU Business Scho
 
 ## Other Publications
 * Fu Jiawei, Yan Shipeng. Forthcoming. “How do new forms of organizations manage institutional voids? Social enterprises’ quest for sociopolitical legitimacy”. Business & Society.
+* Fu Jiawei, Yan Shipeng. 2025. “Institutional complexity and social innovation: The case of Chinese social enterprises”. Voluntas, 36(1): 85-97
 * Zhang, Ze, Yan Shipeng. 2023. “Air pollution and investors’ behavior: A review of recent literature.” The Routledge Handbook of Green Finance: 542–562. London and New York: Routledge.
 * Yan, Shipeng, Ferraro Fabrizio. 2016. “State mediation in market emergence: Socially responsible investing in China”. Research in the Sociology of Organizations, vol. 48B: 173–206. Bingley: Emerald Group Publishing Limited.
 * Bose Indranil, Yan Shipeng. 2011. “The green potential of RFID projects: A case-based analysis”. IT Professional, 13(1).
