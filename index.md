@@ -36,19 +36,19 @@ I work as an assistant professor of management and strategy at HKU Business Scho
 
 ## Working papers
 #### Corporate sustainability: 
-* Corporate environmental reputation (under review)
-* Religion and corporate decarbonization (under review)
-* Anti-slavery regulation and supply chain management (under review)
-* ESG investing and carbon re-allocation (under review)
-* Banks and environmental innovation (preparing for submission)
-* ESG ratings and investor reactions (preparing for submission)
-* Climate litigation (manuscript development)
+* Corporate environmental reputation
+* Religious environmentalism
+* Anti-slavery regulation and supply chain management
+* ESG investing and carbon re-allocation
+* Banks and environmental innovation
+* ESG ratings and investor reactions
+* Climate litigation
 
 #### Corporate non-market strategy
-* Rhetorics and market emergence (under review)
-* Social movement and consumer evaluation (manuscript development)
-* Religion and corporate de-leveraging (manuscript development)
-* Institutional trust (manuscript development)
+* Rhetorics and market emergence
+* Political movement and consumer evaluation
+* Religious de-leveraging
+* Institutional trust 
 
 
 I am open to collaborations and please don't hesitate to drop an email at shpyan at hku dot hk if you find an overlapping interest. 
