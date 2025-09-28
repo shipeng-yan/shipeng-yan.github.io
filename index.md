@@ -6,12 +6,12 @@ I work as an assistant professor of management and strategy at HKU Business Scho
 
 
 ## Lastest News
+* 2025: Accepted nomination to be Deputy Editor for Management and Organization Review
 * 2025: Received four revision requests from **UTD journals** 
 * 2024: Received five revision requests from **UTD journals**
 * 2023: Received two revision requests from **UTD journals**
 * 2023: Received Emerging Scholar Award from Org and Natural Environment Division of AOM
-* 2023: Invited to be Senior Editor for Management and Organization Review
-* 2022: Invited to be Deputy Editor for Organization and Environment
+* 2023: Accepted nomination to be Senior Editor for Management and Organization Review
 
 ## UTD Publications
 1. Yan Shipeng, Jiang Wei, Xu Yue. 2025 (Forthcoming). [“Global investors, hidden suppliers: How institutions shape the impact of stock market liberalization programs on corporate responsibility.”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5373163). ***Journal of International Business Studies***
