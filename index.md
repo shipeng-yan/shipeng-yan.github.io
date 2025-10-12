@@ -1,4 +1,4 @@
-<img src="thumbnail.png" style="width: 500px; height: auto;">
+<img src="IMG_20250915_215057.jpg" style="width: 500px; height: auto;">
 
 Last update: 28 Sep 2025
 
