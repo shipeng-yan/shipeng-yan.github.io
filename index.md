@@ -2,8 +2,7 @@
 
 Last update: 28 Sep 2025
 
-I work as an assistant professor of management and strategy at HKU Business School. With a background in organization theory, I specialize in corporate sustainability, ESG, and institutional analysis. I hold a PhD in Management from IESE Business School and a Bachelor's in Business Administration (Information Systems) from the University of Hong Kong. 
-
+Shipeng (pronounced as "Shuh-pung", in Chinese: 颜示硼) works as an assistant professor of management and strategy at HKU Business School. With a background in organization theory, he specializes in corporate sustainability, ESG, and institutional analysis. He holds a PhD in Management from IESE Business School and a Bachelor's in Business Administration (Information Systems) from the University of Hong Kong. 
 
 ## Lastest News
 * 2025: Nominated to be Deputy Editor for Management and Organization Review
