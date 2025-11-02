@@ -1,6 +1,6 @@
 <img src="IMG_20250915_215057.jpg" style="width: 300px; height: auto;">
 
-Last update: 28 Sep 2025
+Last update: 2 Nov 2025
 
 Shipeng (pronounced as "Shuh-pung", in Chinese: 颜示硼) works as an assistant professor of management and strategy at HKU Business School. With a background in organization theory, he specializes in corporate sustainability, ESG, and institutional analysis. He holds a PhD in Management from IESE Business School and a Bachelor's in Business Administration (Information Systems) from the University of Hong Kong. 
 
@@ -86,7 +86,9 @@ As a management scholar, I care about theoretical novelty, empirical rigor, and 
 Besides research, I also enjoy playing soccer/football. Here are my latest youtube clips of soccer plays. Each clip is less than 20 seconds on average :)
 * 2025: I start to play in better facilities and my video editing skills have improved since 2025, so there are more clips :)
 
-[Sep 21, 2025](https://www.youtube.com/watch?v=mFVn1Zo9WUM);
+[Nov 1, 2025](https://www.youtube.com/watch?v=sUABtN2XcMw)
+
+[Sep 21, 2025](https://www.youtube.com/watch?v=mFVn1Zo9WUM)
   
 [Aug 24, 2025](https://www.youtube.com/watch?v=umCPnRuo3Po); [Aug 18, 2025](https://youtu.be/6g7IKZb-y-s); [Aug 09, 2025](https://www.youtube.com/watch?v=nkd7WbKuj1Q); [Aug 02, 2025](https://youtu.be/nXySmnUS2-8);
 
