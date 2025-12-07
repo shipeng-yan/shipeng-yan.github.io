@@ -86,6 +86,9 @@ As a management scholar, I care about theoretical novelty, empirical rigor, and 
 Besides research, I also enjoy playing soccer/football. Here are my latest youtube clips of soccer plays. Each clip is less than 20 seconds on average :)
 * 2025: I start to play in better facilities and my video editing skills have improved since 2025, so there are more clips :)
 
+
+[Nov 7-Dec 7, 2025](https://youtu.be/8cgobfoSUn0)
+
 [Nov 1, 2025](https://www.youtube.com/watch?v=sUABtN2XcMw)
 
 [Sep 21, 2025](https://www.youtube.com/watch?v=mFVn1Zo9WUM)
