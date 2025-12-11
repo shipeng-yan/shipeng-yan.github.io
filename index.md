@@ -2,7 +2,7 @@
 
 Last update: 19 Nov 2025
 
-Shipeng (pronounced as "Shuh-pung", in Chinese: 颜示硼) works as an assistant professor of management and strategy at HKU Business School. With a background in organization theory, he specializes in corporate sustainability, ESG, and institutional analysis. He holds a PhD in Management from IESE Business School and a Bachelor's in Business Administration (Information Systems) from the University of Hong Kong. 
+Shipeng (pronounced as "Shuh-pung", in Chinese: 颜示硼) works as an assistant professor of management and strategy at HKU Business School. With a background in organization theory, he specializes in corporate sustainability and institutional analysis. 
 
 ## Lastest News
 * 2025: Received 7 revision requests from **UTD journals** 
@@ -11,6 +11,16 @@ Shipeng (pronounced as "Shuh-pung", in Chinese: 颜示硼) works as an assistant
 * 2023: Received 2 revision requests from **UTD journals**
 * 2023: Received Emerging Scholar Award from Org and Natural Environment Division of AOM
 * 2023: Nominated to be Senior Editor for Management and Organization Review
+
+## Education
+* PhD in Management (2016), IESE Business School
+   * Visiting scholar (2016), University of Chicago
+* Bachelor in Business Administration (2009), University of Hong Kong
+
+## Academic Appointments
+* Assistant Professor, University of Hong Kong (2021-present)
+* Assistant Professor, City University of Hong Kong (2018-2021)
+* Assistant Professor, Tilburg University (2016-2018)
 
 ## UTD Publications
 1. Yan Shipeng, Jiang Wei, Xu Yue. 2025 (Forthcoming). [“Global investors, hidden suppliers: How institutions shape the impact of stock market liberalization programs on corporate responsibility.”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5373163). ***Journal of International Business Studies***
