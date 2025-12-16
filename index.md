@@ -6,11 +6,11 @@ Shipeng (pronounced as "Shuh-pung", in Chinese: 颜示硼) works as an assistant
 
 ## Lastest News
 * 2025: Received 7 revision requests from **UTD journals** 
-* 2025: Nominated to be Deputy Editor for Management and Organization Review
+* 2025: Nominated as Deputy Editor for Management and Organization Review
 * 2024: Received 5 revision requests from **UTD journals**
 * 2023: Received 2 revision requests from **UTD journals**
 * 2023: Received Emerging Scholar Award from Org and Natural Environment Division of AOM
-* 2023: Nominated to be Senior Editor for Management and Organization Review
+* 2023: Nominated as Senior Editor for Management and Organization Review
 
 ## Education
 * PhD in Management (2016), IESE Business School
