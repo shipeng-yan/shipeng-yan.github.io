@@ -4,7 +4,6 @@
 
 *Leap day is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/leap-day), or even [use it today](#usage).*
 
-![Thumbnail of Leap day](thumbnail.png)
 
 ## Usage
 
