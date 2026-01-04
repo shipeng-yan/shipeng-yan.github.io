@@ -89,7 +89,7 @@ As a management scholar, I care about theoretical novelty, empirical rigor, and 
 3. As a management scholar, you will have the opportunity to help train and educate the next generation of corporate leaders. Future and current managers love to go back to business schools to reflect on their past experiences and learn from your research if it is interesting and relevant.
 
 
-## Other
+## Soccer/Football
 Besides research, I also enjoy playing soccer/football. Here are my latest youtube clips of soccer plays. Each clip is less than 20 seconds on average :)
 
 * 2025: [top 5 goals](https://www.youtube.com/watch?v=nA1NNwC673o)
