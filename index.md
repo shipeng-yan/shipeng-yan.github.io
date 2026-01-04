@@ -5,10 +5,7 @@ Last update: 19 Nov 2025
 Shipeng (pronounced as "Shuh-pung", in Chinese: 颜示硼) works as an assistant professor of management and strategy at HKU Business School. With a background in organization theory, he specializes in corporate sustainability and institutional analysis. 
 
 ## Lastest News
-* 2025: Received 7 revision requests from **UTD journals** 
 * 2025: Nominated as Deputy Editor for Management and Organization Review
-* 2024: Received 5 revision requests from **UTD journals**
-* 2023: Received 2 revision requests from **UTD journals**
 * 2023: Received Emerging Scholar Award from Org and Natural Environment Division of AOM
 * 2023: Nominated as Senior Editor for Management and Organization Review
 
