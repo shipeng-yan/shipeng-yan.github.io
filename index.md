@@ -21,7 +21,7 @@ Shipeng (pronounced as "Shuh-pung", in Chinese: 颜示硼) works as an assistant
 
 ## UTD Publications
 1. Yan Shipeng, Jiang Wei, Xu Yue. 2025 (Forthcoming). [“Global investors, hidden suppliers: How institutions shape the impact of stock market liberalization programs on corporate responsibility.”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5373163). ***Journal of International Business Studies***
-    * [Click to see a visualization of our main findings](https://shipeng-yan.github.io/supplier_disclosure.html)
+    * [Click to see a visualization of our main findings](https://shipeng-yan.github.io/visualization.html)
     * [Click to see a 7-min AI-generated video explainer in English](https://youtu.be/NRtCWklKnHY)
     * [Click to see a 18-min AI-generated video explainer in Chinese](https://www.bilibili.com/audio/au4978022?type=1%3Ftype%3D6)
 
