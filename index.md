@@ -1,6 +1,6 @@
 <img src="IMG_20250915_215057.jpg" style="width: 300px; height: auto;">
 
-Last update: 23 Mar 2026
+Last update: 3 May 2026
 
 Shipeng (pronounced as "Shuh-pung", in Chinese: 颜示硼) works as an assistant professor of management and strategy at HKU Business School. With a background in organization theory, he specializes in corporate sustainability and institutional analysis. 
 
