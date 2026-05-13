@@ -1,0 +1,54 @@
+primary_name: "Shipeng Yan"
+secondary_name: "颜示硼"
+navbar_name: "Shipeng Yan"
+
+positions:
+- name: Assistant Professor of Management and Strategy
+- name: HKU Business School, University of Hong Kong
+
+email: "shpyan@hku.hk"
+github: shpyan
+
+short_bio_text_justify: false
+short_bio: >-
+  <p>
+    Shipeng (pronounced as "Shuh-pung", in Chinese: 颜示硼) works as an assistant professor of management and strategy at 
+    <strong>HKU Business School</strong>. With a background in organization theory, he specializes in 
+    <strong>corporate sustainability</strong> and <strong>institutional analysis</strong>.
+  </p>
+  <p>
+    I am open to collaborations — please don't hesitate to drop an email at 
+    <a href="mailto:shpyan@hku.hk">shpyan at hku dot hk</a> if you find an overlapping interest.
+  </p>
+
+portrait_url: /assets/images/photos/portrait.jpg
+
+education:
+- name: IESE Business School
+  position: PhD in Management
+  date: "2016"
+- name: University of Chicago
+  position: Visiting Scholar
+  date: "2016"
+- name: University of Hong Kong
+  position: Bachelor in Business Administration
+  date: "2009"
+
+awards:
+- name: "Deputy Editor, Management and Organization Review"
+  date: "2025"
+- name: "Emerging Scholar Award, ONE Division of AOM"
+  date: "2023"
+- name: "Senior Editor, Management and Organization Review"
+  date: "2023"
+
+experience:
+- name: University of Hong Kong
+  position: Assistant Professor of Management and Strategy
+  date: 2021 - present
+- name: City University of Hong Kong
+  position: Assistant Professor
+  date: 2018 - 2021
+- name: Tilburg University
+  position: Assistant Professor
+  date: 2016 - 2018
