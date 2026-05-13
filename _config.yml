@@ -1,0 +1,11 @@
+title: Shipeng YAN
+baseurl: ""
+url: "https://shpyan.github.io"
+markdown: kramdown
+plugins:
+  - jekyll-email-protect
+collections:
+  - publications
+  - news
+  - showcase
+  - posts
