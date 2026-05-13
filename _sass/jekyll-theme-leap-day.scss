@@ -311,11 +311,10 @@ small {
 }
 
 nav {
-  width: 230px;
+  width: 200px;
   position: fixed;
-  top: 220px;
-  left:50%;
-  margin-left:-730px;
+  top: 60px;
+  left: calc(50% - 500px - 210px);
   text-align: right;
 
   ul {
@@ -360,14 +359,13 @@ nav {
 footer {
   width:180px;
   position: fixed;
-  left:50%;
-  margin-left:-680px;
+  left: calc(50% - 500px - 190px);
   bottom:20px;
   text-align: right;
   line-height: 16px;
 }
 
-@media print, screen and (max-width: 1060px) {
+@media print, screen and (max-width: 1460px) {
 
   div.wrapper {
     width:auto;
