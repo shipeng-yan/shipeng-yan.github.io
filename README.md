@@ -1,115 +1,86 @@
-# The Leap day theme
+# academic-homepage
 
-[![.github/workflows/ci.yaml](https://github.com/pages-themes/leap-day/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/leap-day/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-leap-day.svg)](https://badge.fury.io/rb/jekyll-theme-leap-day)
+[![Preview](assets/images/etc/preview.png)](https://luost26.github.io/academic-homepage/)
 
-*Leap day is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/leap-day), or even [use it today](#usage).*
+[![pages-build-deployment](https://github.com/luost26/academic-homepage/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/luost26/academic-homepage/actions/workflows/pages/pages-build-deployment)
+[![Hits](https://hits.sh/github.com/luost26/academic-homepage.svg?view=today-total)](https://hits.sh/github.com/luost26/academic-homepage/)
+[![GitHub stars](https://img.shields.io/github/stars/luost26/academic-homepage)](https://github.com/luost26/academic-homepage)
+[![GitHub forks](https://img.shields.io/github/forks/luost26/academic-homepage)](https://github.com/luost26/academic-homepage/forks)
+<!--[![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fluost26.github.io%2Facademic-homepage)](https://validator.nu/?doc=https%3A%2F%2Fluost26.github.io%2Facademic-homepage)-->
+
+A GitHub Pages (Jekyll) template for personal academic website. Click [here](https://luost26.github.io/academic-homepage/) to see the demo.
+
+## User Community
+
+[🏡](https://luost.me/)
+[:star:](https://cch1999.github.io/)
+[:star:](https://kyrrego.github.io/)
+[:star:](https://ced3-han.github.io/)
+[:star:](https://lihengchen.com/)
+[:star:](https://hpwang-whu.github.io/)
+[:star:](https://zhang-yingyi.github.io/)
+[:star:](https://wby24.github.io/)
+[:star:](https://pengfeixu.com/)
+[:star:](https://boqiuphd.github.io/)
+[:star:](https://www.huabing.li/)
+[:star:](https://xiecuiying.github.io/)
+[:star:](https://hannyang.github.io/)
+[:star:](https://king-play.github.io/)
+[🤖](https://andrewcwlee.github.io)
+[:star:](https://laiyao1.github.io)
+[🌜](https://tmsultan.github.io)
+[🚀](https://zaxguo.github.io)
+[:gemini:](https://hongyang-du.github.io)
+[:star:](https://thuanz123.github.io)
+[🧬](https://gdalba.github.io/)
+[:star:](https://yhhan.com/)
+[🌔](https://chen-huaneng.github.io/academic)
+[:star:](https://jwklee.github.io/)
+[😼](https://onethousandwu.com/)
+[🔬](https://kwen-chen.github.io/)
+[🧑‍🔬](https://shengxiang-lin.github.io/)
+
+:hugs: Feel free to tell us if you are using this template for your website by creating an issue [here](https://github.com/luost26/academic-homepage/issues/new?assignees=&labels=&projects=&template=user-report.md&title=I+am+using+this+template%21).
+
+### Acknowledgements
+
+The improvements of this template have been inspired by the customizations and feedbacks from the following users:
+- 😼 [onethousandwu.com](https://onethousandwu.com/): increased corner radius [[Repo]](https://github.com/oneThousand1000/oneThousand1000.github.io)
+- :star: [shiwonkim.github.io](https://shiwonkim.github.io/): two-column main page layout [[Repo]](https://github.com/shiwonkim/shiwonkim.github.io)
+- :star: [yqxie99.github.io](https://yqxie99.github.io/): blog feature [[Repo]](https://github.com/YQXie99/YQXie99.github.io/tree/feat/add_blog_page)
+- :star: [kwen-chen.github.io](https://kwen-chen.github.io/): blog feature [[Repo]](https://github.com/Kwen-Chen/Kwen-Chen.github.io)
+
+## Need Help?
+
+If you run into **any** issues while using this template, or have suggestions for improvements, please don't hesitate to create an issue [here](https://github.com/luost26/academic-homepage/issues/new).
+
+### FAQs
+
+- [Need blogging feature?](https://github.com/luost26/academic-homepage/issues/13#issuecomment-2646371324)
+- [How to show citation count for papers?](https://github.com/luost26/academic-homepage/issues/29#issuecomment-3222496187)
 
 
-## Usage
+## Getting Started
 
-To use the Leap day theme:
+1. First, click the "Use this template" button to create a new repository. The name of the repository should be `<your-github-username>.github.io` (click [here](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites) to learn more about naming a GitHub Pages repository).
 
-1. Add the following to your site's `_config.yml`:
+### Running Locally (Debug & Preview)
 
-    ```yml
-    remote_theme: pages-themes/leap-day@v0.2.0
-    plugins:
-    - jekyll-remote-theme # add this line to the plugins list if you already have one
-    ```
+2. Follow the **step 1** and **step 2** of the instruction [here](https://jekyllrb.com/docs/) to install prerequisites and jekyll.
 
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
+3. Clone your forked repository to your local machine.
 
-    ```ruby
-    gem "github-pages", group: :jekyll_plugins
-    ```
+4. Run the following command in the root directory of the repository:
 
-## Customizing
+   ```bash
+   bundle exec jekyll serve
+   ```
 
-### Configuration variables
+5. Browse to the displayed URL to see the website.
 
-Leap day will respect the following variables, if set in your site's `_config.yml`:
+### Deploying to GitHub Pages
 
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
-```
+2. Go to the repository settings and enable GitHub Pages. Detailed instructions can be found [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site).
 
-Additionally, you may choose to set the following optional variables:
+3. Navigate to your created website, and follow the instructions displayed on the homepage (if any) to finalize the setup.
 
-```yml
-show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
-```
-
-### Stylesheet
-
-If you'd like to add your own custom styles:
-
-1. Create a file called `/assets/css/style.scss` in your site
-2. Add the following content to the top of the file, exactly as shown:
-    ```scss
-    ---
-    ---
-
-    @import "{{ site.theme }}";
-    ```
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
-
-*Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
-
-### Layouts
-
-If you'd like to change the theme's HTML layout:
-
-1. For some changes such as a custom `favicon`, you can add custom files in your local `_includes` folder. The files [provided with the theme](https://github.com/pages-themes/leap-day/tree/master/_includes) provide a starting point and are included by the [original layout template](https://github.com/pages-themes/leap-day/blob/master/_layouts/default.html).
-2. For more extensive changes, [copy the original template](https://github.com/pages-themes/leap-day/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
-3. Create a file called `/_layouts/default.html` in your site
-4. Paste the default layout content copied in the first step
-5. Customize the layout as you'd like
-
-### Customizing Google Analytics code
-
-Google has released several iterations to their Google Analytics code over the years since this theme was first created. If you would like to take advantage of the latest code, paste it into `_includes/head-custom-google-analytics.html` in your Jekyll site.
-
-### Overriding GitHub-generated URLs
-
-Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
-
-1. Look at [the template source](https://github.com/pages-themes/leap-day/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
-2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
-    ```yml
-    github:
-      zip_url: http://example.com/download.zip
-      another_url: another value
-    ```
-3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
-
-*Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
-
-For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
-
-## Roadmap
-
-See the [open issues](https://github.com/pages-themes/leap-day/issues) for a list of proposed features (and known issues).
-
-## Project philosophy
-
-The Leap day theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
-
-## Contributing
-
-Interested in contributing to Leap day? We'd love your help. Leap day is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
-
-### Previewing the theme locally
-
-If you'd like to preview the theme locally (for example, in the process of proposing a change):
-
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/leap-day`)
-2. `cd` into the theme's directory
-3. Run `script/bootstrap` to install the necessary dependencies
-4. Run `bundle exec jekyll serve` to start the preview server
-5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
-
-### Running tests
-
-The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` once before the test script will work.
