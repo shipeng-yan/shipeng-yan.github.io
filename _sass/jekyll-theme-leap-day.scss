@@ -1,7 +1,7 @@
 /*
 Leap Day for GitHub Pages
 by Matt Graham
-Redesigned: fixed top navbar, refined typography & color scheme, mobile-optimized
+Redesigned: fixed top navbar (black/white), refined typography, mobile-optimized
 */
 
 @import "normalize";
@@ -12,8 +12,8 @@ Redesigned: fixed top navbar, refined typography & color scheme, mobile-optimize
 
 :root {
   --nav-height: 52px;
-  --nav-bg: #1c2b3a;
-  --nav-accent: #4a9eca;
+  --nav-bg: #000000;
+  --nav-accent: #ffffff;
   --body-bg: #f7f8fa;
   --content-bg: #ffffff;
   --text-primary: #1a1a2e;
@@ -28,13 +28,8 @@ Redesigned: fixed top navbar, refined typography & color scheme, mobile-optimize
   --shadow-md: 0 4px 16px rgba(0,0,0,0.08), 0 2px 6px rgba(0,0,0,0.04);
 }
 
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
 
 body {
   font-family: 'Source Serif 4', 'Georgia', serif;
@@ -58,17 +53,11 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.01em;
 }
 
-h1 {
-  font-size: 26px;
-  font-weight: 700;
-  color: var(--heading-color);
-  margin-bottom: 18px;
-}
+h1 { font-size: 26px; font-weight: 700; margin-bottom: 18px; }
 
 h2 {
   font-size: 18px;
   font-weight: 600;
-  color: var(--heading-color);
   border-bottom: 2px solid var(--border-color);
   padding-bottom: 8px;
   margin-top: 40px;
@@ -86,102 +75,36 @@ h2::after {
   background: var(--h2-accent);
 }
 
-h3 {
-  font-size: 15px;
-  font-weight: 600;
-  color: var(--text-secondary);
-  margin-top: 24px;
-  margin-bottom: 10px;
-}
+h3 { font-size: 15px; font-weight: 600; color: var(--text-secondary); margin-top: 24px; margin-bottom: 10px; }
+h4, h5, h6 { font-size: 14px; font-weight: 600; color: var(--text-secondary); }
 
-h4, h5, h6 {
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--text-secondary);
-}
+p { margin: 0 0 16px; color: var(--text-primary); line-height: 1.8; }
 
-p {
-  margin: 0 0 16px;
-  color: var(--text-primary);
-  line-height: 1.8;
-}
+ul, ol { margin: 0 0 16px; padding-left: 24px; line-height: 1.8; }
+ul { list-style-image: none; list-style-type: disc; }
+ol { list-style-type: decimal; }
+li { margin-bottom: 6px; color: var(--text-primary); }
 
-ul, ol {
-  margin: 0 0 16px;
-  padding-left: 24px;
-  line-height: 1.8;
-}
-
-ul {
-  list-style-image: none;
-  list-style-type: disc;
-}
-
-ol {
-  list-style-type: decimal;
-}
-
-li {
-  margin-bottom: 6px;
-  color: var(--text-primary);
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 20px;
-  font-size: 14px;
-}
-
+table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 14px; }
 th {
-  text-align: left;
-  padding: 8px 12px;
+  text-align: left; padding: 8px 12px;
   border-bottom: 2px solid var(--border-color);
   color: var(--text-secondary);
   font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
+  font-weight: 600; font-size: 13px;
+  text-transform: uppercase; letter-spacing: 0.04em;
 }
+td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--border-color); }
 
-td {
-  text-align: left;
-  padding: 8px 12px;
-  border-bottom: 1px solid var(--border-color);
-}
+a { color: var(--link-color); font-weight: 400; text-decoration: none; transition: color 0.15s ease; }
+a:hover { color: var(--link-hover); text-decoration: underline; text-underline-offset: 2px; }
+a small { font-size: 11px; color: var(--text-muted); margin-top: -0.4em; display: block; }
 
-a {
-  color: var(--link-color);
-  font-weight: 400;
-  text-decoration: none;
-  transition: color 0.15s ease;
-}
-
-a:hover {
-  color: var(--link-hover);
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-a small {
-  font-size: 11px;
-  color: var(--text-muted);
-  margin-top: -0.4em;
-  display: block;
-}
-
-strong {
-  font-weight: 600;
-  color: var(--text-primary);
-}
-
-em {
-  font-style: italic;
-}
+strong { font-weight: 600; color: var(--text-primary); }
+em { font-style: italic; }
 
 blockquote {
-  border-left: 3px solid var(--nav-accent);
+  border-left: 3px solid #555555;
   margin: 20px 0;
   padding: 4px 0 4px 18px;
   font-style: italic;
@@ -191,191 +114,141 @@ blockquote {
 
 code {
   font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', monospace;
-  font-size: 13px;
-  color: #c7254e;
-  background: #f8f2f4;
-  border: 1px solid #f0e0e6;
-  margin: 0 2px;
-  padding: 1px 5px;
-  border-radius: 3px;
+  font-size: 13px; color: #c7254e;
+  background: #f8f2f4; border: 1px solid #f0e0e6;
+  margin: 0 2px; padding: 1px 5px; border-radius: 3px;
 }
 
 pre {
-  padding: 14px 18px;
-  background: #1e2533;
-  border-radius: 6px;
-  border: none;
-  overflow: auto;
-  overflow-y: hidden;
-  margin-bottom: 20px;
+  padding: 14px 18px; background: #1e2533;
+  border-radius: 6px; border: none;
+  overflow: auto; overflow-y: hidden; margin-bottom: 20px;
 }
-
-pre code {
-  margin: 0;
-  padding: 0;
-  color: #abb2bf;
-  background: none;
-  border: none;
-  font-size: 13px;
-}
+pre code { margin: 0; padding: 0; color: #abb2bf; background: none; border: none; font-size: 13px; }
 
 kbd {
-  background-color: #f6f8fa;
-  border: 1px solid #d0d7de;
-  border-bottom-color: #b0b7be;
-  border-radius: 4px;
-  box-shadow: inset 0 -1px 0 #b0b7be;
-  color: #24292f;
-  display: inline-block;
-  font-family: 'SF Mono', monospace;
-  font-size: 11px;
-  line-height: 10px;
-  padding: 3px 6px;
-  vertical-align: middle;
+  background-color: #f6f8fa; border: 1px solid #d0d7de;
+  border-bottom-color: #b0b7be; border-radius: 4px;
+  box-shadow: inset 0 -1px 0 #b0b7be; color: #24292f;
+  display: inline-block; font-family: 'SF Mono', monospace;
+  font-size: 11px; line-height: 10px; padding: 3px 6px; vertical-align: middle;
 }
 
-hr {
-  border: 0;
-  outline: none;
-  height: 1px;
-  background: var(--border-color);
-  margin: 32px 0;
-}
+hr { border: 0; outline: none; height: 1px; background: var(--border-color); margin: 32px 0; }
+dt { color: var(--text-primary); font-weight: 600; font-family: 'Inter', sans-serif; }
+small { font-size: 12px; color: var(--text-muted); }
+img { max-width: 100%; height: auto; border-radius: 4px; }
 
-dt {
-  color: var(--text-primary);
-  font-weight: 600;
-  font-family: 'Inter', sans-serif;
-}
-
-small {
-  font-size: 12px;
-  color: var(--text-muted);
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 4px;
-}
-
-header {
-  display: none !important;
-}
-
-#banner {
-  display: none !important;
-}
+header { display: none !important; }
+#banner { display: none !important; }
 
 nav {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  top: 0; left: 0; right: 0;
   z-index: 1000;
-  background: var(--nav-bg);
-  box-shadow: 0 1px 0 rgba(255,255,255,0.06), 0 2px 12px rgba(0,0,0,0.25);
+  background: #000000;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.06), 0 2px 8px rgba(0,0,0,0.5);
   height: var(--nav-height);
-}
 
-nav ul {
-  list-style: none;
-  list-style-image: none;
-  margin: 0;
-  padding: 0 12px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  overflow-y: hidden;
-  height: var(--nav-height);
-  align-items: stretch;
-  gap: 0;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-}
+  ul {
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: var(--nav-height);
+    align-items: stretch;
+    gap: 0;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
 
-nav ul::-webkit-scrollbar {
-  display: none;
-}
+    &::-webkit-scrollbar { display: none; }
 
-nav ul li {
-  display: flex;
-  align-items: stretch;
-  white-space: nowrap;
-  flex-shrink: 0;
-}
+    li {
+      display: flex;
+      align-items: stretch;
+      white-space: nowrap;
+      flex-shrink: 0;
 
-nav ul li a {
-  font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  display: flex;
-  align-items: center;
-  padding: 0 13px;
-  height: 100%;
-  border-bottom: 2px solid transparent;
-  border-top: 2px solid transparent;
-  transition: background 0.15s, border-color 0.15s, color 0.15s;
-  text-decoration: none;
-  letter-spacing: 0.01em;
-}
+      a {
+        font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        display: flex;
+        align-items: center;
+        padding: 0 14px;
+        height: 100%;
+        border-bottom: 2px solid transparent;
+        border-top: 2px solid transparent;
+        transition: background 0.15s, border-color 0.15s, color 0.15s;
+        text-decoration: none;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
 
-nav ul li.tag-h1 a {
-  font-size: 13px;
-  font-weight: 500;
-  color: #e2e8f0;
-  padding: 0 14px;
-}
+      &.tag-h1 a {
+        font-size: 11px;
+        font-weight: 500;
+        color: #ffffff;
 
-nav ul li.tag-h1 a:hover {
-  background: rgba(255,255,255,0.08);
-  border-bottom-color: var(--nav-accent);
-  color: #ffffff;
-  text-decoration: none;
-}
+        &:hover {
+          background: rgba(255,255,255,0.1);
+          border-bottom-color: #ffffff;
+          color: #ffffff;
+          text-decoration: none;
+        }
+      }
 
-nav ul li.tag-h1.active > a {
-  border-bottom-color: var(--nav-accent);
-  color: #ffffff;
-  background: rgba(74,158,202,0.12);
-}
+      &.tag-h1.active > a {
+        border-bottom-color: #ffffff;
+        color: #ffffff;
+        background: rgba(255,255,255,0.08);
+      }
 
-nav ul li.tag-h2 a {
-  font-size: 12px;
-  font-weight: 400;
-  color: #94a3b8;
-  padding: 0 11px;
-}
+      &.tag-h2 a {
+        font-size: 10px;
+        font-weight: 400;
+        color: #888888;
+        padding: 0 11px;
+        letter-spacing: 0.04em;
 
-nav ul li.tag-h2 a:hover {
-  background: rgba(255,255,255,0.06);
-  border-bottom-color: rgba(74,158,202,0.6);
-  color: #cbd5e1;
-  text-decoration: none;
-}
+        &:hover {
+          background: rgba(255,255,255,0.07);
+          border-bottom-color: #aaaaaa;
+          color: #cccccc;
+          text-decoration: none;
+        }
+      }
 
-nav ul li.tag-h2.active > a {
-  border-bottom-color: rgba(74,158,202,0.6);
-  color: #cbd5e1;
-  background: rgba(74,158,202,0.08);
-}
+      &.tag-h2.active > a {
+        border-bottom-color: #aaaaaa;
+        color: #cccccc;
+        background: rgba(255,255,255,0.05);
+      }
 
-nav ul li.tag-h3 a {
-  font-size: 11px;
-  font-weight: 400;
-  color: #64748b;
-  padding: 0 9px;
-}
+      &.tag-h3 a {
+        font-size: 10px;
+        font-weight: 400;
+        color: #555555;
+        padding: 0 9px;
+        letter-spacing: 0.03em;
 
-nav ul li.tag-h3 a:hover {
-  background: rgba(255,255,255,0.04);
-  border-bottom-color: rgba(74,158,202,0.4);
-  color: #94a3b8;
-  text-decoration: none;
-}
+        &:hover {
+          background: rgba(255,255,255,0.04);
+          border-bottom-color: #666666;
+          color: #999999;
+          text-decoration: none;
+        }
+      }
 
-nav ul li.tag-h3.active > a {
-  border-bottom-color: rgba(74,158,202,0.4);
-  color: #94a3b8;
+      &.tag-h3.active > a {
+        border-bottom-color: #666666;
+        color: #999999;
+      }
+    }
+  }
 }
 
 .wrapper {
@@ -419,34 +292,28 @@ footer {
     padding: 36px 32px 48px 32px;
     border-radius: 6px;
   }
-  footer {
-    padding: 0 32px;
-    margin: 0 16px 24px 16px;
-  }
+  footer { padding: 0 32px; margin: 0 16px 24px 16px; }
   h1 { font-size: 22px; }
   h2 { font-size: 17px; margin-top: 32px; }
 }
 
 @media screen and (max-width: 640px) {
   :root { --nav-height: 48px; }
-  body {
-    font-size: 15px;
-    line-height: 1.75;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+  body { font-size: 15px; line-height: 1.75; word-wrap: break-word; overflow-wrap: break-word; }
+  nav ul {
+    padding: 0 8px;
+    li {
+      &.tag-h1 a { font-size: 10px; padding: 0 10px; }
+      &.tag-h2 a { font-size: 9px; padding: 0 8px; }
+      &.tag-h3 a { font-size: 9px; padding: 0 6px; }
+    }
   }
-  nav ul { padding: 0 4px; }
-  nav ul li.tag-h1 a { font-size: 12px; padding: 0 10px; }
-  nav ul li.tag-h2 a { font-size: 11px; padding: 0 8px; }
-  nav ul li.tag-h3 a { font-size: 10px; padding: 0 6px; }
   section {
     margin: calc(var(--nav-height) + 12px) 0 24px 0;
     padding: 24px 18px 36px 18px;
     border-radius: 0;
-    border-left: none;
-    border-right: none;
-    box-shadow: none;
-    border-top: none;
+    border-left: none; border-right: none;
+    box-shadow: none; border-top: none;
   }
   footer { padding: 0 18px; margin: 0 0 24px 0; }
   h1 { font-size: 20px; margin-bottom: 14px; }
