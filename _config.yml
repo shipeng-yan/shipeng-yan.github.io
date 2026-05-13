@@ -1,9 +1,0 @@
-baseurl: ""
-markdown: kramdown
-plugins:
-  - jekyll-email-protect
-collections:
-  - publications
-  - news
-  - showcase
-  - posts
