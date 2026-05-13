@@ -1,30 +1,548 @@
----
-layout: default
-title : Homepage
-navbar_title: Home
----
-<div class="row">
-    <div class="col-lg-3 col-md-4">
-        {% include widgets/profile_card_mini.html %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Shipeng YAN</title>
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        :root {
+            --navbar-bg: #000000;
+            --navbar-text: #ffffff;
+            --navbar-hover: #cccccc;
+            --accent: #2b6cb0;
+            --body-bg: #f5f5f5;
+            --card-bg: #ffffff;
+            --text-primary: #1a1a2e;
+            --text-secondary: #555;
+            --border: #e0e0e0;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            font-family: 'Source Serif 4', Georgia, serif;
+            font-size: 15px;
+            line-height: 1.75;
+            color: var(--text-primary);
+            background: var(--body-bg);
+            padding-top: 52px;
+        }
+
+        /* ===== NAVBAR ===== */
+        #navbar {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            z-index: 1000;
+            background: var(--navbar-bg);
+            height: 52px;
+            display: flex;
+            align-items: center;
+            padding: 0 16px;
+            overflow-x: auto;
+            overflow-y: hidden;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+        }
+        #navbar::-webkit-scrollbar { display: none; }
+
+        #navbar .brand {
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 15px;
+            color: #ffffff;
+            white-space: nowrap;
+            margin-right: 20px;
+            text-decoration: none;
+            flex-shrink: 0;
+        }
+        #navbar .brand:hover { color: #cccccc; text-decoration: none; }
+
+        #navbar .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 0;
+            flex-shrink: 0;
+        }
+
+        #navbar .nav-link {
+            font-family: 'Inter', sans-serif;
+            font-size: 12.5px;
+            font-weight: 400;
+            color: rgba(255,255,255,0.85) !important;
+            padding: 6px 10px;
+            white-space: nowrap;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: color 0.2s, border-color 0.2s;
+        }
+        #navbar .nav-link:hover {
+            color: #ffffff !important;
+            border-bottom-color: rgba(255,255,255,0.5);
+            text-decoration: none;
+        }
+        #navbar .nav-link.active {
+            color: #ffffff !important;
+            border-bottom-color: #ffffff;
+        }
+
+        /* ===== MAIN CONTENT ===== */
+        .main-container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 16px;
+        }
+
+        /* ===== PROFILE HEADER ===== */
+        .profile-header {
+            background: var(--card-bg);
+            border-radius: 8px;
+            padding: 28px 32px;
+            margin-bottom: 24px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+            display: flex;
+            gap: 28px;
+            align-items: flex-start;
+        }
+
+        .profile-photo {
+            width: 160px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 6px;
+            flex-shrink: 0;
+        }
+
+        .profile-info h1 {
+            font-family: 'Inter', sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 4px;
+            color: var(--text-primary);
+        }
+
+        .profile-info .subtitle {
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+
+        .profile-info .bio {
+            font-size: 14.5px;
+            line-height: 1.7;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+        }
+
+        .profile-info .last-update {
+            font-family: 'Inter', sans-serif;
+            font-size: 12px;
+            color: #888;
+        }
+
+        .contact-links {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .contact-links a {
+            font-family: 'Inter', sans-serif;
+            font-size: 12.5px;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .contact-links a:hover { text-decoration: underline; }
+
+        /* ===== CONTENT SECTIONS ===== */
+        .content-card {
+            background: var(--card-bg);
+            border-radius: 8px;
+            padding: 24px 32px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+        }
+
+        .section-title {
+            font-family: 'Inter', sans-serif;
+            font-size: 17px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--border);
+        }
+
+        .section-title a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        /* Lists */
+        .content-card ul {
+            padding-left: 20px;
+            margin-bottom: 0;
+        }
+
+        .content-card ul li {
+            margin-bottom: 6px;
+            font-size: 14.5px;
+        }
+
+        .content-card ol {
+            padding-left: 20px;
+        }
+
+        .content-card ol li {
+            margin-bottom: 12px;
+            font-size: 14.5px;
+        }
+
+        /* Publications */
+        .pub-item {
+            margin-bottom: 16px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .pub-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+
+        .pub-item .pub-title {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .pub-item .pub-venue {
+            font-style: italic;
+            color: var(--text-secondary);
+            font-size: 13.5px;
+        }
+
+        .pub-item .pub-links {
+            margin-top: 4px;
+        }
+
+        .pub-item .pub-links a {
+            font-family: 'Inter', sans-serif;
+            font-size: 12px;
+            color: var(--accent);
+            margin-right: 10px;
+            text-decoration: none;
+        }
+        .pub-item .pub-links a:hover { text-decoration: underline; }
+
+        /* Education / Appointments */
+        .cv-item {
+            margin-bottom: 10px;
+        }
+        .cv-item .cv-title {
+            font-weight: 600;
+            font-size: 14.5px;
+        }
+        .cv-item .cv-detail {
+            font-size: 13.5px;
+            color: var(--text-secondary);
+            margin-left: 12px;
+        }
+
+        /* News */
+        .news-item {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+        .news-year {
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 13px;
+            color: var(--accent);
+            min-width: 36px;
+            padding-top: 2px;
+        }
+
+        /* ===== MOBILE ===== */
+        @media (max-width: 640px) {
+            body { padding-top: 48px; }
+
+            #navbar { height: 48px; padding: 0 10px; }
+            #navbar .brand { font-size: 13px; margin-right: 10px; }
+            #navbar .nav-link { font-size: 11px; padding: 4px 7px; }
+
+            .main-container { margin: 16px auto; padding: 0 10px; }
+
+            .profile-header {
+                flex-direction: column;
+                padding: 20px 18px;
+                gap: 16px;
+            }
+            .profile-photo { width: 120px; height: 150px; }
+            .profile-info h1 { font-size: 20px; }
+
+            .content-card { padding: 18px 16px; }
+        }
+
+        /* ===== LINKS ===== */
+        a { color: var(--accent); }
+        a:hover { color: #1a4a80; }
+
+        /* ===== FOOTER ===== */
+        .site-footer {
+            text-align: center;
+            padding: 20px;
+            font-family: 'Inter', sans-serif;
+            font-size: 12px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+    <a href="#" class="brand">Shipeng YAN</a>
+    <div class="nav-links">
+        <a href="#news" class="nav-link">Latest News</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#appointments" class="nav-link">Academic Appointments</a>
+        <a href="#utd-publications" class="nav-link">UTD Publications</a>
+        <a href="#other-publications" class="nav-link">Other Publications</a>
+        <a href="#working-papers" class="nav-link">Working Papers</a>
+        <a href="#phd" class="nav-link">For PhD Applicants</a>
+        <a href="#soccer" class="nav-link">Soccer/Football</a>
     </div>
-    <div class="col-lg-9 col-md-8">
-        {% include widgets/profile_card_bio_only.html %}
-        {% if site.data.display.homepage.show_experience %}
-            {% include widgets/experience_card.html %}
-        {% endif %}
-        {% if site.data.display.homepage.show_news %}
-        {% assign count_news = site.news | size %}
-        {% if count_news > 0 %}
-        {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
-        {% endif %}
-        {% endif %}
-        {% if site.data.display.homepage.show_selected_publications %}
-        {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
-        {%
-        include widgets/publication_card.html
-        publications=pubs
-        title='<i class="fas fa-star"></i> Selected Publications'
-        %}
-        {% endif %}
+</nav>
+
+<!-- MAIN CONTENT -->
+<div class="main-container">
+
+    <!-- PROFILE HEADER -->
+    <div class="profile-header">
+        <img src="IMG_20250915_215057.jpg" alt="Shipeng YAN" class="profile-photo">
+        <div class="profile-info">
+            <h1>Shipeng YAN <span style="font-size:16px;font-weight:400;color:#888;">颜示硼</span></h1>
+            <div class="subtitle">Assistant Professor of Management &amp; Strategy · HKU Business School</div>
+            <div class="bio">
+                Shipeng (pronounced as "Shuh-pung") works as an assistant professor of management and strategy at HKU Business School. With a background in organization theory, he specializes in corporate sustainability and institutional analysis.
+            </div>
+            <div class="contact-links">
+                <a href="mailto:shpyan@hku.hk"><i class="fas fa-envelope"></i> shpyan@hku.hk</a>
+                <a href="https://scholar.google.com" target="_blank"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+                <a href="https://ssrn.com" target="_blank"><i class="fas fa-file-alt"></i> SSRN</a>
+            </div>
+            <div class="last-update">Last update: 3 May 2026</div>
+        </div>
     </div>
+
+    <!-- LATEST NEWS -->
+    <div class="content-card" id="news">
+        <div class="section-title">Latest News</div>
+        <div class="news-item"><span class="news-year">2025</span><span>Became Deputy Editor for <em>Management and Organization Review</em></span></div>
+        <div class="news-item"><span class="news-year">2023</span><span>Received Emerging Scholar Award from ONE Division of AOM</span></div>
+        <div class="news-item"><span class="news-year">2023</span><span>Became Senior Editor for <em>Management and Organization Review</em></span></div>
+    </div>
+
+    <!-- EDUCATION -->
+    <div class="content-card" id="education">
+        <div class="section-title">Education</div>
+        <div class="cv-item">
+            <div class="cv-title">PhD in Management (2016) — IESE Business School</div>
+            <div class="cv-detail">Visiting Scholar (2016), University of Chicago</div>
+        </div>
+        <div class="cv-item">
+            <div class="cv-title">Bachelor in Business Administration (2009) — University of Hong Kong</div>
+        </div>
+    </div>
+
+    <!-- ACADEMIC APPOINTMENTS -->
+    <div class="content-card" id="appointments">
+        <div class="section-title">Academic Appointments</div>
+        <div class="cv-item"><div class="cv-title">Assistant Professor · University of Hong Kong (2021–present)</div></div>
+        <div class="cv-item"><div class="cv-title">Assistant Professor · City University of Hong Kong (2018–2021)</div></div>
+        <div class="cv-item"><div class="cv-title">Assistant Professor · Tilburg University (2016–2018)</div></div>
+    </div>
+
+    <!-- UTD PUBLICATIONS -->
+    <div class="content-card" id="utd-publications">
+        <div class="section-title">UTD Publications</div>
+
+        <div class="pub-item">
+            <div class="pub-title">1. Yan Shipeng, Jiang Wei, Xu Yue. 2025 (Forthcoming). "Global investors, hidden suppliers: How institutions shape the impact of stock market liberalization programs on corporate responsibility."</div>
+            <div class="pub-venue"><em>Journal of International Business Studies</em></div>
+            <div class="pub-links">
+                <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5373163" target="_blank">SSRN</a>
+                <a href="https://shipeng-yan.github.io/visualization.html" target="_blank">Visualization</a>
+                <a href="https://youtu.be/NRtCWklKnHY" target="_blank">7-min video (EN)</a>
+                <a href="https://www.bilibili.com/audio/au4978022?type=1%3Ftype%3D6" target="_blank">18-min video (CN)</a>
+            </div>
+        </div>
+
+        <div class="pub-item">
+            <div class="pub-title">2. Cai Yishu, Yue Qingyuan (Lori), Lin Fangwen, Yan Shipeng, Yang Haibin (equal authorship). 2025. "Hedging against the risk of democratic transition: Corporate philanthropy after the Sunflower Movement in Taiwan."</div>
+            <div class="pub-venue"><em>Administrative Science Quarterly</em>, 70(2): 367–402</div>
+            <div class="pub-links">
+                <a href="https://shipeng-yan.github.io/assets/Cai%20et%20al.%2C%202025.pdf" target="_blank">PDF</a>
+                <a href="https://youtu.be/w6Qchq_qiYQ" target="_blank">9-min video</a>
+            </div>
+        </div>
+
+        <div class="pub-item">
+            <div class="pub-title">3. Maksimov Vladislav, Wang Stephanie, Yan Shipeng (equal authorship). 2022. "Global connectedness and dynamic green capabilities in MNEs."</div>
+            <div class="pub-venue"><em>Journal of International Business Studies</em>, 53(4): 723–740</div>
+            <div class="pub-links">
+                <a href="https://shipeng-yan.github.io/assets/Maksimov%2C%20Wang%2C%20Yan%20-%202019.pdf" target="_blank">PDF</a>
+            </div>
+        </div>
+
+        <div class="pub-item">
+            <div class="pub-title">4. Yan Shipeng, Almandoz Juan (John), Ferraro Fabrizio. 2021. "The impact of logic (in)compatibility: Green investing, state policy, and corporate environmental performance."</div>
+            <div class="pub-venue"><em>Administrative Science Quarterly</em>, 66(4): 903–944</div>
+            <div class="pub-links">
+                <a href="https://shipeng-yan.github.io/assets/Yan%20et%20al.%2C%202021.pdf" target="_blank">PDF</a>
+            </div>
+        </div>
+
+        <div class="pub-item">
+            <div class="pub-title">5. Yan Shipeng. 2020. "A double-edged sword: Diversity within religion and market emergence."</div>
+            <div class="pub-venue"><em>Organization Science</em>, 31(3): 558–575</div>
+            <div class="pub-links">
+                <a href="https://shipeng-yan.github.io/assets/Yan%20-%202020.pdf" target="_blank">PDF</a>
+                <a href="https://youtu.be/O_Er8amMqrs" target="_blank">6-min video</a>
+            </div>
+        </div>
+
+        <div class="pub-item">
+            <div class="pub-title">6. Yan Shipeng, Ferraro Fabrizio, Almandoz Juan (John). 2019. "The rise of socially responsible investment funds: The paradoxical role of the financial logic."</div>
+            <div class="pub-venue"><em>Administrative Science Quarterly</em>, 64(2): 466–501</div>
+            <div class="pub-links">
+                <a href="https://shipeng-yan.github.io/assets/Yan%2C%20Ferraro%2C%20Almandoz%20-%202019.pdf" target="_blank">PDF</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- OTHER PUBLICATIONS -->
+    <div class="content-card" id="other-publications">
+        <div class="section-title">Other Publications</div>
+        <ul>
+            <li>Fu Jiawei, Yan Shipeng. Forthcoming. "How do new forms of organizations manage institutional voids? Social enterprises' quest for sociopolitical legitimacy." <em>Business &amp; Society</em>.</li>
+            <li>Fu Jiawei, Yan Shipeng. 2025. "Institutional complexity and social innovation: The case of Chinese social enterprises." <em>Voluntas</em>, 36(1): 85–97.</li>
+            <li>Zhang Ze, Yan Shipeng. 2023. "Air pollution and investors' behavior: A review of recent literature." <em>The Routledge Handbook of Green Finance</em>: 542–562. London and New York: Routledge.</li>
+            <li>Yan Shipeng, Ferraro Fabrizio. 2016. "State mediation in market emergence: Socially responsible investing in China." <em>Research in the Sociology of Organizations</em>, vol. 48B: 173–206. Bingley: Emerald Group Publishing Limited.</li>
+            <li>Bose Indranil, Yan Shipeng. 2011. "The green potential of RFID projects: A case-based analysis." <em>IT Professional</em>, 13(1).</li>
+        </ul>
+    </div>
+
+    <!-- WORKING PAPERS -->
+    <div class="content-card" id="working-papers">
+        <div class="section-title">Working Papers</div>
+        <p style="font-family:'Inter',sans-serif;font-size:13.5px;color:#555;margin-bottom:10px;">I am open to collaborations — please email <a href="mailto:shpyan@hku.hk">shpyan@hku.hk</a> if you find an overlapping interest.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <strong style="font-family:'Inter',sans-serif;font-size:13px;">Corporate Sustainability</strong>
+                <ul style="margin-top:6px;">
+                    <li>Corporate reputation</li>
+                    <li>Religious environmentalism</li>
+                    <li>Supply chain management</li>
+                    <li>Carbon leakage</li>
+                    <li>Environmental innovation</li>
+                    <li>ESG ratings</li>
+                    <li>Climate litigation</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <strong style="font-family:'Inter',sans-serif;font-size:13px;">Corporate Non-Market Strategy</strong>
+                <ul style="margin-top:6px;">
+                    <li>Rhetorics in market narratives</li>
+                    <li>Political movement</li>
+                    <li>Religious logic</li>
+                    <li>Institutional trust</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOR PHD APPLICANTS -->
+    <div class="content-card" id="phd">
+        <div class="section-title">For Visiting Students &amp; PhD Applicants</div>
+
+        <p><strong>PhD Admission at HKU Business School</strong></p>
+        <p>I regularly receive emails soliciting my interest in hiring PhD students, but in my current institution the PhD admission decisions are committee-based. However, if you are already a doctoral student interested in ESG and institutional analysis from a different institution, there might be a visiting opportunity.</p>
+
+        <p><strong>My style as a PhD adviser</strong></p>
+        <ul>
+            <li>My goal is to help you become an independent and productive scholar.</li>
+            <li>I am not a micro-manager. I also respect your boundaries and understand that you have multiple priorities in life. However, if you believe that a healthy dose of structure with reminders and deadlines is helpful for you, please ask for it explicitly.</li>
+            <li>In general, I am responsive. In return, I also expect you to be responsive.</li>
+            <li>You don't have to agree with me all the time, but you should provide a well-reasoned explanation. This principle applies to responding to reviewers.</li>
+            <li>I am on your side when you need support. That means I am with you even if you decide that research is not your cup of tea or your current priority in life. However, you should take the initiative to communicate your concerns in a timely manner.</li>
+        </ul>
+
+        <p><strong>My intellectual style</strong></p>
+        <p>As a management scholar, I care about theoretical novelty, empirical rigor, and practical relevance. A good paper should at least have two or more of these elements.</p>
+
+        <p><strong>Why PhD in Management?</strong></p>
+        <p>You will NOT become a CEO of a large multinational firm after doing a PhD in management. On the contrary, doing this will most likely kill your chance to be a CEO. An imperfect but useful analogy is that a management scholar is to a manager as a football game analyst is to a footballer.</p>
+        <p>Management research treats managerial phenomena as if they can be scientifically analyzed and generalized, and develops abstract theories to describe complex managerial issues in simple ways. Management research must balance between academic rigor and practical relevance.</p>
+        <p>As a management scholar, you will have the opportunity to help train and educate the next generation of corporate leaders.</p>
+    </div>
+
+    <!-- SOCCER/FOOTBALL -->
+    <div class="content-card" id="soccer">
+        <div class="section-title">Soccer/Football</div>
+        <p>Besides research, I also enjoy playing soccer/football. Here are my latest YouTube clips of soccer plays. Each clip is less than 20 seconds on average.</p>
+        <ul>
+            <li><strong>2026:</strong> <a href="#" target="_blank">Jan</a>; <a href="#" target="_blank">Feb</a>; <a href="#" target="_blank">Mar</a>; <a href="#" target="_blank">Apr</a></li>
+            <li><strong>2025:</strong> <a href="https://youtube.com/shorts/t562GY8KtAc" target="_blank">Top 5 goals</a> | Nov 7–Dec 7; Nov 1; Sep 21; Aug 24; Aug 18; Aug 09; Aug 02; Jul 24; Jul 14; Jul 11; Jul 6; May 4; Apr 13; Apr 06; Mar 24; Feb 23</li>
+            <li><strong>2024:</strong> <a href="https://youtube.com/shorts/t562GY8KtAc" target="_blank">All goals in 2024</a></li>
+            <li><strong>2023:</strong> <a href="https://youtu.be/b5EUvzeQLkQ" target="_blank">My favorite solo goals in 2023</a></li>
+        </ul>
+    </div>
+
+</div><!-- end main-container -->
+
+<div class="site-footer">
+    &copy; 2026 Shipeng YAN · HKU Business School
 </div>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+<script>
+// Smooth scroll for nav links
+document.querySelectorAll('#navbar .nav-link').forEach(function(link) {
+    link.addEventListener('click', function(e) {
+        var href = this.getAttribute('href');
+        if (href.startsWith('#')) {
+            e.preventDefault();
+            var target = document.querySelector(href);
+            if (target) {
+                var offset = target.getBoundingClientRect().top + window.scrollY - 60;
+                window.scrollTo({ top: offset, behavior: 'smooth' });
+            }
+        }
+    });
+});
+
+// Active section tracking
+window.addEventListener('scroll', function() {
+    var sections = document.querySelectorAll('.content-card[id]');
+    var navLinks = document.querySelectorAll('#navbar .nav-link');
+    var scrollPos = window.scrollY + 70;
+
+    sections.forEach(function(section) {
+        if (section.offsetTop <= scrollPos && section.offsetTop + section.offsetHeight > scrollPos) {
+            navLinks.forEach(function(link) { link.classList.remove('active'); });
+            var active = document.querySelector('#navbar .nav-link[href="#' + section.id + '"]');
+            if (active) active.classList.add('active');
+        }
+    });
+});
+</script>
+</body>
+</html>
